@@ -117,16 +117,16 @@ def suggestion_epargne(personne: Personne,
             continue
         for vm in scenarios:
             versement_annuel = vm * 12
-            # Check annual deposit cap
-            if versement_annuel > e.versement_max:
-                logging.debug(f"Skipping {vm:.2f}€/mois for {e.nom}: cap exceeded")
+            # Check objective and cap
+            if personne.objectif > e.versement_max:
+                logging.debug(f"Skipping {e.nom}: objective exceeds maximum deposit")
                 continue
             # Calculate gross amount
             montant_brut = utils.calcul_interets_composes(versement_annuel, e.taux_interet, personne.duree_epargne)
             total_versement = versement_annuel * personne.duree_epargne
             gain = montant_brut - total_versement
             # Apply taxation on the gain
-            montant_net = total_versement + gain * (1 - e.fiscalite / 100)
+            montant_net = total_versement + gain * (1 - e.fiscalite)
             resultats.append(ResultatEpargne(
                 nom_client=personne.nom,
                 scenarios= round(vm / capacite_mensuelle * 100, 2) if capacite_mensuelle > 0 else 0,
