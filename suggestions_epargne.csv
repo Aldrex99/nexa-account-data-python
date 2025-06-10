@@ -1513,50 +1513,50 @@ Brigitte,50.0,SCPI Sofidynamic,516.67,252875.32,True,0.095,0.3,5,
 Brigitte,75.0,SCPI Sofidynamic,775.0,379312.98,True,0.095,0.3,5,
 Brigitte,100.0,SCPI Sofidynamic,1033.33,505750.64,True,0.095,0.3,5,
 Cédric,0.0,Livret A,23.0,1380.99,False,0.024,0.0,0,22950.0
-Cédric,0.0,Livret A,-12.5,-750.54,False,0.024,0.0,0,22950.0
-Cédric,0.0,Livret A,-25.0,-1501.08,False,0.024,0.0,0,22950.0
-Cédric,0.0,Livret A,-37.5,-2251.62,False,0.024,0.0,0,22950.0
-Cédric,0.0,Livret A,-50.0,-3002.16,False,0.024,0.0,0,22950.0
+Cédric,0.0,Livret A,0.0,0.0,False,0.024,0.0,0,22950.0
+Cédric,0.0,Livret A,0.0,0.0,False,0.024,0.0,0,22950.0
+Cédric,0.0,Livret A,0.0,0.0,False,0.024,0.0,0,22950.0
+Cédric,0.0,Livret A,0.0,0.0,False,0.024,0.0,0,22950.0
 Cédric,0.0,LDDS,23.0,1380.99,False,0.024,0.0,0,12000.0
-Cédric,0.0,LDDS,-12.5,-750.54,False,0.024,0.0,0,12000.0
-Cédric,0.0,LDDS,-25.0,-1501.08,False,0.024,0.0,0,12000.0
-Cédric,0.0,LDDS,-37.5,-2251.62,False,0.024,0.0,0,12000.0
-Cédric,0.0,LDDS,-50.0,-3002.16,False,0.024,0.0,0,12000.0
+Cédric,0.0,LDDS,0.0,0.0,False,0.024,0.0,0,12000.0
+Cédric,0.0,LDDS,0.0,0.0,False,0.024,0.0,0,12000.0
+Cédric,0.0,LDDS,0.0,0.0,False,0.024,0.0,0,12000.0
+Cédric,0.0,LDDS,0.0,0.0,False,0.024,0.0,0,12000.0
 Cédric,0.0,LEP,23.0,1381.45,False,0.035,0.0,0,7700.0
-Cédric,0.0,LEP,-12.5,-750.79,False,0.035,0.0,0,7700.0
-Cédric,0.0,LEP,-25.0,-1501.58,False,0.035,0.0,0,7700.0
-Cédric,0.0,LEP,-37.5,-2252.36,False,0.035,0.0,0,7700.0
-Cédric,0.0,LEP,-50.0,-3003.15,False,0.035,0.0,0,7700.0
+Cédric,0.0,LEP,0.0,0.0,False,0.035,0.0,0,7700.0
+Cédric,0.0,LEP,0.0,0.0,False,0.035,0.0,0,7700.0
+Cédric,0.0,LEP,0.0,0.0,False,0.035,0.0,0,7700.0
+Cédric,0.0,LEP,0.0,0.0,False,0.035,0.0,0,7700.0
 Cédric,0.0,PEL (2025),23.0,1380.72,False,0.0175,0.3,4,61200.0
-Cédric,0.0,PEL (2025),-12.5,-750.39,False,0.0175,0.3,4,61200.0
-Cédric,0.0,PEL (2025),-25.0,-1500.79,False,0.0175,0.3,4,61200.0
-Cédric,0.0,PEL (2025),-37.5,-2251.18,False,0.0175,0.3,4,61200.0
-Cédric,0.0,PEL (2025),-50.0,-3001.57,False,0.0175,0.3,4,61200.0
+Cédric,0.0,PEL (2025),0.0,0.0,False,0.0175,0.3,4,61200.0
+Cédric,0.0,PEL (2025),0.0,0.0,False,0.0175,0.3,4,61200.0
+Cédric,0.0,PEL (2025),0.0,0.0,False,0.0175,0.3,4,61200.0
+Cédric,0.0,PEL (2025),0.0,0.0,False,0.0175,0.3,4,61200.0
 Cédric,0.0,PEA – profil prudent,23.0,1381.86,False,0.045,0.172,5,150000.0
-Cédric,0.0,PEA – profil prudent,-12.5,-751.01,False,0.045,0.172,5,150000.0
-Cédric,0.0,PEA – profil prudent,-25.0,-1502.02,False,0.045,0.172,5,150000.0
-Cédric,0.0,PEA – profil prudent,-37.5,-2253.03,False,0.045,0.172,5,150000.0
-Cédric,0.0,PEA – profil prudent,-50.0,-3004.05,False,0.045,0.172,5,150000.0
+Cédric,0.0,PEA – profil prudent,0.0,0.0,False,0.045,0.172,5,150000.0
+Cédric,0.0,PEA – profil prudent,0.0,0.0,False,0.045,0.172,5,150000.0
+Cédric,0.0,PEA – profil prudent,0.0,0.0,False,0.045,0.172,5,150000.0
+Cédric,0.0,PEA – profil prudent,0.0,0.0,False,0.045,0.172,5,150000.0
 Cédric,0.0,PEA – profil équilibré,23.0,1382.48,False,0.06,0.172,5,150000.0
-Cédric,0.0,PEA – profil équilibré,-12.5,-751.35,False,0.06,0.172,5,150000.0
-Cédric,0.0,PEA – profil équilibré,-25.0,-1502.7,False,0.06,0.172,5,150000.0
-Cédric,0.0,PEA – profil équilibré,-37.5,-2254.05,False,0.06,0.172,5,150000.0
-Cédric,0.0,PEA – profil équilibré,-50.0,-3005.4,False,0.06,0.172,5,150000.0
+Cédric,0.0,PEA – profil équilibré,0.0,0.0,False,0.06,0.172,5,150000.0
+Cédric,0.0,PEA – profil équilibré,0.0,0.0,False,0.06,0.172,5,150000.0
+Cédric,0.0,PEA – profil équilibré,0.0,0.0,False,0.06,0.172,5,150000.0
+Cédric,0.0,PEA – profil équilibré,0.0,0.0,False,0.06,0.172,5,150000.0
 Cédric,0.0,PEA – profil dynamique,23.0,1383.31,False,0.08,0.172,5,150000.0
-Cédric,0.0,PEA – profil dynamique,-12.5,-751.8,False,0.08,0.172,5,150000.0
-Cédric,0.0,PEA – profil dynamique,-25.0,-1503.6,False,0.08,0.172,5,150000.0
-Cédric,0.0,PEA – profil dynamique,-37.5,-2255.4,False,0.08,0.172,5,150000.0
-Cédric,0.0,PEA – profil dynamique,-50.0,-3007.2,False,0.08,0.172,5,150000.0
+Cédric,0.0,PEA – profil dynamique,0.0,0.0,False,0.08,0.172,5,150000.0
+Cédric,0.0,PEA – profil dynamique,0.0,0.0,False,0.08,0.172,5,150000.0
+Cédric,0.0,PEA – profil dynamique,0.0,0.0,False,0.08,0.172,5,150000.0
+Cédric,0.0,PEA – profil dynamique,0.0,0.0,False,0.08,0.172,5,150000.0
 Cédric,0.0,SCPI Iroko Zen,23.0,1382.93,False,0.071,0.3,5,
-Cédric,0.0,SCPI Iroko Zen,-12.5,-751.59,False,0.071,0.3,5,
-Cédric,0.0,SCPI Iroko Zen,-25.0,-1503.19,False,0.071,0.3,5,
-Cédric,0.0,SCPI Iroko Zen,-37.5,-2254.78,False,0.071,0.3,5,
-Cédric,0.0,SCPI Iroko Zen,-50.0,-3006.38,False,0.071,0.3,5,
+Cédric,0.0,SCPI Iroko Zen,0.0,0.0,False,0.071,0.3,5,
+Cédric,0.0,SCPI Iroko Zen,0.0,0.0,False,0.071,0.3,5,
+Cédric,0.0,SCPI Iroko Zen,0.0,0.0,False,0.071,0.3,5,
+Cédric,0.0,SCPI Iroko Zen,0.0,0.0,False,0.071,0.3,5,
 Cédric,0.0,SCPI Sofidynamic,23.0,1383.93,False,0.095,0.3,5,
-Cédric,0.0,SCPI Sofidynamic,-12.5,-752.13,False,0.095,0.3,5,
-Cédric,0.0,SCPI Sofidynamic,-25.0,-1504.27,False,0.095,0.3,5,
-Cédric,0.0,SCPI Sofidynamic,-37.5,-2256.4,False,0.095,0.3,5,
-Cédric,0.0,SCPI Sofidynamic,-50.0,-3008.54,False,0.095,0.3,5,
+Cédric,0.0,SCPI Sofidynamic,0.0,0.0,False,0.095,0.3,5,
+Cédric,0.0,SCPI Sofidynamic,0.0,0.0,False,0.095,0.3,5,
+Cédric,0.0,SCPI Sofidynamic,0.0,0.0,False,0.095,0.3,5,
+Cédric,0.0,SCPI Sofidynamic,0.0,0.0,False,0.095,0.3,5,
 Diane,43.6,Livret A,327.0,141892.97,True,0.024,0.0,0,22950.0
 Diane,25.0,Livret A,187.5,81360.65,False,0.024,0.0,0,22950.0
 Diane,50.0,Livret A,375.0,162721.3,True,0.024,0.0,0,22950.0
