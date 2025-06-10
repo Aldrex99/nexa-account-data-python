@@ -15,7 +15,7 @@ class Personne:
                f"objectif={self.objectif}, duree_epargne={self.duree_epargne}, " \
                f"versement_mensuel_utilisateur={self.versement_mensuel_utilisateur})"
 
-    def _calcul_capacite_epargne(self):
+    def calcul_capacite_epargne(self):
         capacite_mensuelle = (self.revenu_annuel / 12) - self.loyer - self.depenses_mensuelles
         return capacite_mensuelle
 
@@ -24,4 +24,4 @@ class Personne:
                 f"Loyer: {self.loyer}, Dépenses Mensuelles: {self.depenses_mensuelles}, "
                 f"Objectif: {self.objectif}, Durée d'Épargne: {self.duree_epargne} années, "
                 f"Versement Mensuel : {"Pas de versement mensuel prévue" if self.versement_mensuel_utilisateur == 0 else self.versement_mensuel_utilisateur}, "
-                f"Capacité d'Épargne Mensuelle: {self._calcul_capacite_epargne():.2f} €")
+                f"Capacité d'Épargne Mensuelle: {self.calcul_capacite_epargne():.2f} €")

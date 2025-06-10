@@ -3,70 +3,20 @@ import pandas as pd
 import logging
 from typing import List
 
+import src.account_module.utils as utils
 from src.account_module.models.personne import Personne
 from src.account_module.models.epargne import Epargne
+from src.account_module.models.resultat import ResultatEpargne
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-
-def _read_dataframe(fichier: str) -> pd.DataFrame:
-    """
-    Read a file into a pandas DataFrame.
-    """
-    ext = os.path.splitext(fichier)[1].lower()
-    try:
-        if ext in ['.csv', '.txt']:
-            if ext == '.csv':
-                df = pd.read_csv(fichier, sep=',')
-            else:
-                df = pd.read_csv(fichier, sep='\t')
-        elif ext in ['.xlsx', '.xls']:
-            df = pd.read_excel(fichier)
-        else:
-            raise ValueError(f"Format de fichier non supporté: {ext}")
-    except Exception as e:
-        logging.error(f"Erreur lecture fichier {fichier}: {e}")
-        raise
-    logging.info(f"Fichier {fichier} lu avec succès ({len(df)} lignes)")
-    return df
-
-
-def _clean_dataframe(df: pd.DataFrame,
-                     float_cols: List[str],
-                     int_cols: List[str]) -> pd.DataFrame:
-    """
-    Clean a DataFrame by converting specified columns to float or int.
-    """
-    df = df.copy()
-    # Nettoyage float
-    for col in float_cols:
-        if col in df.columns:
-            df[col] = df[col].replace(['None', None], pd.NA)
-            try:
-                df[col] = df[col].astype(float)
-            except Exception as e:
-                logging.error(f"Conversion en float impossible pour la colonne '{col}': {e}")
-                raise ValueError(f"Format invalide pour {col}")
-    # Nettoyage int
-    for col in int_cols:
-        if col in df.columns:
-            df[col] = df[col].replace(['None', None], pd.NA)
-            try:
-                # Utilise Int64 pour permettre les NaN
-                df[col] = df[col].astype('Int64')
-            except Exception as e:
-                logging.error(f"Conversion en int impossible pour la colonne '{col}': {e}")
-                raise ValueError(f"Format invalide pour {col}")
-    return df
-
 
 def import_personnes(fichier: str) -> List[Personne]:
     """
     Import a file of persons and return a list of Personne instances.
     """
-    df = _read_dataframe(fichier)
-    df = _clean_dataframe(df, float_cols=['revenu_annuel', 'loyer', 'depenses_mensuelles', 'objectif', 'versement_mensuel_utilisateur'], int_cols=['age', 'duree_epargne'])
+    df = utils.read_dataframe(fichier)
+    df = utils.clean_dataframe(df, float_cols=['revenu_annuel', 'loyer', 'depenses_mensuelles', 'objectif', 'versement_mensuel_utilisateur'], int_cols=['age', 'duree_epargne'])
 
     personnes = []
     for idx, row in df.iterrows():
@@ -94,8 +44,8 @@ def import_epargnes(fichier: str) -> List[Epargne]:
     """
     Import a file of savings products and return a list of Epargne instances.
     """
-    df = _read_dataframe(fichier)
-    df = _clean_dataframe(
+    df = utils.read_dataframe(fichier)
+    df = utils.clean_dataframe(
         df,
         float_cols=['taux_interet', 'fiscalite', 'versement_max'],
         int_cols=['duree_min']
@@ -119,28 +69,6 @@ def import_epargnes(fichier: str) -> List[Epargne]:
     logging.info(f"Import de {len(epargnes)} produits d'épargne terminé.")
     return epargnes
 
-
-def _write_dataframe(df: pd.DataFrame, fichier: str):
-    """
-    Write a DataFrame to a file in the appropriate format based on the file extension.
-    """
-    ext = os.path.splitext(fichier)[1].lower()
-    try:
-        if ext in ['.csv', '.txt']:
-            if ext == '.csv':
-                df.to_csv(fichier, index=False)
-            else:
-                df.to_csv(fichier, sep='\t', index=False)
-        elif ext in ['.xlsx', '.xls']:
-            df.to_excel(fichier, index=False)
-        else:
-            raise ValueError(f"Format de fichier non supporté: {ext}")
-    except Exception as e:
-        logging.error(f"Erreur écriture fichier {fichier}: {e}")
-        raise
-    logging.info(f"Fichier {fichier} enregistré ({len(df)} lignes)")
-
-
 def save_personnes(personnes: List[Personne], fichier: str):
     """
     Save a list of Personne instances to a file.
@@ -148,7 +76,7 @@ def save_personnes(personnes: List[Personne], fichier: str):
     # Conversion en DataFrame via dict
     data = [p.__dict__ for p in personnes]
     df = pd.DataFrame(data)
-    _write_dataframe(df, fichier)
+    utils.write_dataframe(df, fichier)
 
 
 def save_epargnes(epargnes: List[Epargne], fichier: str):
@@ -157,4 +85,63 @@ def save_epargnes(epargnes: List[Epargne], fichier: str):
     """
     data = [e.__dict__ for e in epargnes]
     df = pd.DataFrame(data)
-    _write_dataframe(df, fichier)
+    utils.write_dataframe(df, fichier)
+
+def suggestion_epargne(personne: Personne,
+                        epargnes: List[Epargne]) -> List[ResultatEpargne]:
+    """
+    Generates savings plan suggestions for each product,
+    calculating gross and net amounts over the specified duration.
+
+    Considered scenarios:
+    - user-provided monthly deposit (if any)
+    - 25%, 50%, 75%, 100% of the monthly savings capacity
+
+    Only products meeting the minimum duration are considered,
+    and annual deposits exceeding the product's cap are skipped.
+    """
+    resultats: List[ResultatEpargne] = []
+    capacite_mensuelle = personne.calcul_capacite_epargne()
+
+    # Prepare monthly scenarios
+    scenarios = []
+    if personne.versement_mensuel_utilisateur and personne.versement_mensuel_utilisateur > 0:
+        scenarios.append(personne.versement_mensuel_utilisateur)
+    for pct in (0.25, 0.5, 0.75, 1.0):
+        scenarios.append(capacite_mensuelle * pct)
+
+    for e in epargnes:
+        # Check minimum duration requirement
+        if personne.duree_epargne < e.duree_min:
+            logging.debug(f"Skipping {e.nom}: minimum duration not met")
+            continue
+        for vm in scenarios:
+            versement_annuel = vm * 12
+            # Check annual deposit cap
+            if versement_annuel > e.versement_max:
+                logging.debug(f"Skipping {vm:.2f}€/mois for {e.nom}: cap exceeded")
+                continue
+            # Calculate gross amount
+            montant_brut = utils.calcul_interets_composes(versement_annuel, e.taux_interet, personne.duree_epargne)
+            total_versement = versement_annuel * personne.duree_epargne
+            gain = montant_brut - total_versement
+            # Apply taxation on the gain
+            montant_net = total_versement + gain * (1 - e.fiscalite / 100)
+            resultats.append(ResultatEpargne(
+                nom_client=personne.nom,
+                scenarios= round(vm / capacite_mensuelle * 100, 2) if capacite_mensuelle > 0 else 0,
+                nom_produit=e.nom,
+                effort_mensuel=vm,
+                montant_net_final=montant_net,
+                atteint_objectif=(montant_net >= personne.objectif),
+                indicateurs={
+                    'taux_interet': e.taux_interet,
+                    'fiscalite': e.fiscalite,
+                    'duree_min': e.duree_min,
+                    'versement_max': e.versement_max
+                }
+            ))
+
+    logging.info(f"Generated {len(resultats)} savings scenarios successfully.")
+    return resultats
+

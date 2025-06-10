@@ -1,7 +1,10 @@
+import pandas as pd
+
 from src.account_module.core import import_personnes, import_epargnes, save_personnes, save_epargnes
 from src.account_module.models.epargne import Epargne
 from src.account_module.models.personne import Personne
 from src.account_module.utils import calcul_interets_composes
+from src.account_module.core import suggestion_epargne
 
 def main():
     # Création d'un objet Epargne
@@ -44,19 +47,42 @@ def main():
     print(f"Montant final après {duree_annees} ans: {montant_final:.2f} €")
 
     try:
-        personnes_df = import_personnes('./src/account_module/data/personnes.txt')
-        print("\nPersonnes importées:")
-        print(personnes_df)
+        personnes_df = import_personnes('./src/account_module/data/personnes.csv')
 
-        epargnes_df = import_epargnes('./src/account_module/data/epargnes.txt')
-        print("\nProduits d'épargne importés:")
-        print(epargnes_df)
+        epargnes_df = import_epargnes('./src/account_module/data/epargnes.csv')
 
-        save_personnes(personnes_df, 'cleaned_personnes.txt')
-        save_epargnes(epargnes_df, 'cleaned_epargnes.txt')
+        save_personnes(personnes_df, 'cleaned_personnes.csv')
+        save_epargnes(epargnes_df, 'cleaned_epargnes.csv')
 
     except Exception as e:
         print(f"An error occurred: {e}")
+
+    # Test suggestion d'épargne
+    try:
+        cleaned_personnes = import_personnes('cleaned_personnes.csv')
+        if not cleaned_personnes:
+            raise ValueError("Aucune personne trouvée dans le fichier nettoyé.")
+
+        cleaned_epargnes = import_epargnes('cleaned_epargnes.csv')
+        if not cleaned_epargnes:
+            raise ValueError("Aucun produit d'épargne trouvé dans le fichier nettoyé.")
+
+        suggestions = []
+        for personne in cleaned_personnes:
+            print(f"\nSuggestions d'épargne pour {personne.nom}:")
+            suggestions.extend(suggestion_epargne(personne, cleaned_epargnes))
+            if not suggestions:
+                print("Aucune suggestion d'épargne disponible.")
+            else:
+                for suggestion in suggestions:
+                    suggestion.afficher()
+
+        # Export des suggestions en DataFrame
+        suggestions_df = pd.concat([s.to_dataframe() for s in suggestions], ignore_index=True)
+        suggestions_df.to_csv('suggestions_epargne.csv', index=False)
+
+    except Exception as e:
+        print(f"An error occurred during the savings suggestion: {e}")
 
 if __name__ == "__main__":
     main()

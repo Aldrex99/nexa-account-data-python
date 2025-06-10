@@ -1,0 +1,1618 @@
+nom_client,scenarios,nom_produit,effort_mensuel,montant_net_final,atteint_objectif,taux_interet,fiscalite,duree_min,versement_max
+Alice,37.62,Livret A,395.0,171399.77,False,0.024,0.0,0,22950.0
+Alice,25.0,Livret A,262.5,113904.91,False,0.024,0.0,0,22950.0
+Alice,50.0,Livret A,525.0,227809.82,True,0.024,0.0,0,22950.0
+Alice,75.0,Livret A,787.5,341714.73,True,0.024,0.0,0,22950.0
+Alice,100.0,Livret A,1050.0,455619.63,True,0.024,0.0,0,22950.0
+Alice,37.62,LDDS,395.0,171399.77,False,0.024,0.0,0,12000.0
+Alice,25.0,LDDS,262.5,113904.91,False,0.024,0.0,0,12000.0
+Alice,50.0,LDDS,525.0,227809.82,True,0.024,0.0,0,12000.0
+Alice,75.0,LDDS,787.5,341714.73,True,0.024,0.0,0,12000.0
+Alice,37.62,LEP,395.0,171749.42,False,0.035,0.0,0,7700.0
+Alice,25.0,LEP,262.5,114137.27,False,0.035,0.0,0,7700.0
+Alice,50.0,LEP,525.0,228274.54,True,0.035,0.0,0,7700.0
+Alice,37.62,PEL (2025),395.0,171191.92,False,0.0175,0.3,4,61200.0
+Alice,25.0,PEL (2025),262.5,113766.78,False,0.0175,0.3,4,61200.0
+Alice,50.0,PEL (2025),525.0,227533.56,True,0.0175,0.3,4,61200.0
+Alice,75.0,PEL (2025),787.5,341300.34,True,0.0175,0.3,4,61200.0
+Alice,100.0,PEL (2025),1050.0,455067.12,True,0.0175,0.3,4,61200.0
+Alice,37.62,Assurance Vie – euros,395.0,171430.16,False,0.025,0.172,8,150000.0
+Alice,25.0,Assurance Vie – euros,262.5,113925.1,False,0.025,0.172,8,150000.0
+Alice,50.0,Assurance Vie – euros,525.0,227850.21,True,0.025,0.172,8,150000.0
+Alice,75.0,Assurance Vie – euros,787.5,341775.31,True,0.025,0.172,8,150000.0
+Alice,100.0,Assurance Vie – euros,1050.0,455700.41,True,0.025,0.172,8,150000.0
+Alice,37.62,Assurance Vie – UC Risque faible,395.0,171747.51,False,0.035,0.172,8,200000.0
+Alice,25.0,Assurance Vie – UC Risque faible,262.5,114136.0,False,0.035,0.172,8,200000.0
+Alice,50.0,Assurance Vie – UC Risque faible,525.0,228272.01,True,0.035,0.172,8,200000.0
+Alice,75.0,Assurance Vie – UC Risque faible,787.5,342408.01,True,0.035,0.172,8,200000.0
+Alice,100.0,Assurance Vie – UC Risque faible,1050.0,456544.02,True,0.035,0.172,8,200000.0
+Alice,37.62,Assurance Vie – UC Risque modéré,395.0,172065.61,False,0.045,0.172,8,200000.0
+Alice,25.0,Assurance Vie – UC Risque modéré,262.5,114347.4,False,0.045,0.172,8,200000.0
+Alice,50.0,Assurance Vie – UC Risque modéré,525.0,228694.8,True,0.045,0.172,8,200000.0
+Alice,75.0,Assurance Vie – UC Risque modéré,787.5,343042.19,True,0.045,0.172,8,200000.0
+Alice,100.0,Assurance Vie – UC Risque modéré,1050.0,457389.59,True,0.045,0.172,8,200000.0
+Alice,37.62,PEA – profil prudent,395.0,172065.61,False,0.045,0.172,5,150000.0
+Alice,25.0,PEA – profil prudent,262.5,114347.4,False,0.045,0.172,5,150000.0
+Alice,50.0,PEA – profil prudent,525.0,228694.8,True,0.045,0.172,5,150000.0
+Alice,75.0,PEA – profil prudent,787.5,343042.19,True,0.045,0.172,5,150000.0
+Alice,100.0,PEA – profil prudent,1050.0,457389.59,True,0.045,0.172,5,150000.0
+Alice,37.62,PEA – profil équilibré,395.0,172544.15,False,0.06,0.172,5,150000.0
+Alice,25.0,PEA – profil équilibré,262.5,114665.42,False,0.06,0.172,5,150000.0
+Alice,50.0,PEA – profil équilibré,525.0,229330.83,True,0.06,0.172,5,150000.0
+Alice,75.0,PEA – profil équilibré,787.5,343996.25,True,0.06,0.172,5,150000.0
+Alice,100.0,PEA – profil équilibré,1050.0,458661.66,True,0.06,0.172,5,150000.0
+Alice,37.62,PEA – profil dynamique,395.0,173184.82,False,0.08,0.172,5,150000.0
+Alice,25.0,PEA – profil dynamique,262.5,115091.18,False,0.08,0.172,5,150000.0
+Alice,50.0,PEA – profil dynamique,525.0,230182.36,True,0.08,0.172,5,150000.0
+Alice,75.0,PEA – profil dynamique,787.5,345273.53,True,0.08,0.172,5,150000.0
+Alice,100.0,PEA – profil dynamique,1050.0,460364.71,True,0.08,0.172,5,150000.0
+Alice,37.62,SCPI Iroko Zen,395.0,172893.25,False,0.071,0.3,5,
+Alice,25.0,SCPI Iroko Zen,262.5,114897.42,False,0.071,0.3,5,
+Alice,50.0,SCPI Iroko Zen,525.0,229794.83,True,0.071,0.3,5,
+Alice,75.0,SCPI Iroko Zen,787.5,344692.25,True,0.071,0.3,5,
+Alice,100.0,SCPI Iroko Zen,1050.0,459589.66,True,0.071,0.3,5,
+Alice,37.62,SCPI Sofidynamic,395.0,173663.41,False,0.095,0.3,5,
+Alice,25.0,SCPI Sofidynamic,262.5,115409.23,False,0.095,0.3,5,
+Alice,50.0,SCPI Sofidynamic,525.0,230818.46,True,0.095,0.3,5,
+Alice,75.0,SCPI Sofidynamic,787.5,346227.68,True,0.095,0.3,5,
+Alice,100.0,SCPI Sofidynamic,1050.0,461636.91,True,0.095,0.3,5,
+Bob,39.88,Livret A,545.0,39272.97,False,0.024,0.0,0,22950.0
+Bob,25.0,Livret A,341.67,24620.67,False,0.024,0.0,0,22950.0
+Bob,50.0,Livret A,683.33,49241.34,False,0.024,0.0,0,22950.0
+Bob,75.0,Livret A,1025.0,73862.02,False,0.024,0.0,0,22950.0
+Bob,100.0,Livret A,1366.67,98482.69,False,0.024,0.0,0,22950.0
+Bob,39.88,LDDS,545.0,39272.97,False,0.024,0.0,0,12000.0
+Bob,25.0,LDDS,341.67,24620.67,False,0.024,0.0,0,12000.0
+Bob,50.0,LDDS,683.33,49241.34,False,0.024,0.0,0,12000.0
+Bob,39.88,LEP,545.0,39288.1,False,0.035,0.0,0,7700.0
+Bob,25.0,LEP,341.67,24630.15,False,0.035,0.0,0,7700.0
+Bob,39.88,PEL (2025),545.0,39263.97,False,0.0175,0.3,4,61200.0
+Bob,25.0,PEL (2025),341.67,24615.03,False,0.0175,0.3,4,61200.0
+Bob,50.0,PEL (2025),683.33,49230.05,False,0.0175,0.3,4,61200.0
+Bob,75.0,PEL (2025),1025.0,73845.08,False,0.0175,0.3,4,61200.0
+Bob,100.0,PEL (2025),1366.67,98460.11,False,0.0175,0.3,4,61200.0
+Bob,39.88,PEA – profil prudent,545.0,39301.74,False,0.045,0.172,5,150000.0
+Bob,25.0,PEA – profil prudent,341.67,24638.71,False,0.045,0.172,5,150000.0
+Bob,50.0,PEA – profil prudent,683.33,49277.41,False,0.045,0.172,5,150000.0
+Bob,75.0,PEA – profil prudent,1025.0,73916.12,False,0.045,0.172,5,150000.0
+Bob,100.0,PEA – profil prudent,1366.67,98554.83,False,0.045,0.172,5,150000.0
+Bob,39.88,PEA – profil équilibré,545.0,39322.34,False,0.06,0.172,5,150000.0
+Bob,25.0,PEA – profil équilibré,341.67,24651.62,False,0.06,0.172,5,150000.0
+Bob,50.0,PEA – profil équilibré,683.33,49303.25,False,0.06,0.172,5,150000.0
+Bob,75.0,PEA – profil équilibré,1025.0,73954.87,False,0.06,0.172,5,150000.0
+Bob,100.0,PEA – profil équilibré,1366.67,98606.49,False,0.06,0.172,5,150000.0
+Bob,39.88,PEA – profil dynamique,545.0,39349.83,False,0.08,0.172,5,150000.0
+Bob,25.0,PEA – profil dynamique,341.67,24668.85,False,0.08,0.172,5,150000.0
+Bob,50.0,PEA – profil dynamique,683.33,49337.71,False,0.08,0.172,5,150000.0
+Bob,75.0,PEA – profil dynamique,1025.0,74006.56,False,0.08,0.172,5,150000.0
+Bob,100.0,PEA – profil dynamique,1366.67,98675.41,False,0.08,0.172,5,150000.0
+Bob,39.88,SCPI Iroko Zen,545.0,39337.33,False,0.071,0.3,5,
+Bob,25.0,SCPI Iroko Zen,341.67,24661.02,False,0.071,0.3,5,
+Bob,50.0,SCPI Iroko Zen,683.33,49322.04,False,0.071,0.3,5,
+Bob,75.0,SCPI Iroko Zen,1025.0,73983.06,False,0.071,0.3,5,
+Bob,100.0,SCPI Iroko Zen,1366.67,98644.08,False,0.071,0.3,5,
+Bob,39.88,SCPI Sofidynamic,545.0,39370.29,False,0.095,0.3,5,
+Bob,25.0,SCPI Sofidynamic,341.67,24681.68,False,0.095,0.3,5,
+Bob,50.0,SCPI Sofidynamic,683.33,49363.36,False,0.095,0.3,5,
+Bob,75.0,SCPI Sofidynamic,1025.0,74045.04,False,0.095,0.3,5,
+Bob,100.0,SCPI Sofidynamic,1366.67,98726.72,False,0.095,0.3,5,
+Claire,93.17,Livret A,823.0,59305.79,False,0.024,0.0,0,22950.0
+Claire,25.0,Livret A,220.83,15913.36,False,0.024,0.0,0,22950.0
+Claire,50.0,Livret A,441.67,31826.72,False,0.024,0.0,0,22950.0
+Claire,75.0,Livret A,662.5,47740.08,False,0.024,0.0,0,22950.0
+Claire,100.0,Livret A,883.33,63653.45,False,0.024,0.0,0,22950.0
+Claire,93.17,LDDS,823.0,59305.79,False,0.024,0.0,0,12000.0
+Claire,25.0,LDDS,220.83,15913.36,False,0.024,0.0,0,12000.0
+Claire,50.0,LDDS,441.67,31826.72,False,0.024,0.0,0,12000.0
+Claire,75.0,LDDS,662.5,47740.08,False,0.024,0.0,0,12000.0
+Claire,100.0,LDDS,883.33,63653.45,False,0.024,0.0,0,12000.0
+Claire,25.0,LEP,220.83,15919.49,False,0.035,0.0,0,7700.0
+Claire,50.0,LEP,441.67,31838.98,False,0.035,0.0,0,7700.0
+Claire,93.17,PEL (2025),823.0,59292.2,False,0.0175,0.3,4,61200.0
+Claire,25.0,PEL (2025),220.83,15909.71,False,0.0175,0.3,4,61200.0
+Claire,50.0,PEL (2025),441.67,31819.42,False,0.0175,0.3,4,61200.0
+Claire,75.0,PEL (2025),662.5,47729.14,False,0.0175,0.3,4,61200.0
+Claire,100.0,PEL (2025),883.33,63638.85,False,0.0175,0.3,4,61200.0
+Claire,93.17,PEA – profil prudent,823.0,59349.24,False,0.045,0.172,5,150000.0
+Claire,25.0,PEA – profil prudent,220.83,15925.02,False,0.045,0.172,5,150000.0
+Claire,50.0,PEA – profil prudent,441.67,31850.04,False,0.045,0.172,5,150000.0
+Claire,75.0,PEA – profil prudent,662.5,47775.05,False,0.045,0.172,5,150000.0
+Claire,100.0,PEA – profil prudent,883.33,63700.07,False,0.045,0.172,5,150000.0
+Claire,93.17,PEA – profil équilibré,823.0,59380.35,False,0.06,0.172,5,150000.0
+Claire,25.0,PEA – profil équilibré,220.83,15933.37,False,0.06,0.172,5,150000.0
+Claire,50.0,PEA – profil équilibré,441.67,31866.73,False,0.06,0.172,5,150000.0
+Claire,75.0,PEA – profil équilibré,662.5,47800.1,False,0.06,0.172,5,150000.0
+Claire,100.0,PEA – profil équilibré,883.33,63733.46,False,0.06,0.172,5,150000.0
+Claire,93.17,PEA – profil dynamique,823.0,59421.85,False,0.08,0.172,5,150000.0
+Claire,25.0,PEA – profil dynamique,220.83,15944.5,False,0.08,0.172,5,150000.0
+Claire,50.0,PEA – profil dynamique,441.67,31889.01,False,0.08,0.172,5,150000.0
+Claire,75.0,PEA – profil dynamique,662.5,47833.51,False,0.08,0.172,5,150000.0
+Claire,100.0,PEA – profil dynamique,883.33,63778.01,False,0.08,0.172,5,150000.0
+Claire,93.17,SCPI Iroko Zen,823.0,59402.98,False,0.071,0.3,5,
+Claire,25.0,SCPI Iroko Zen,220.83,15939.44,False,0.071,0.3,5,
+Claire,50.0,SCPI Iroko Zen,441.67,31878.88,False,0.071,0.3,5,
+Claire,75.0,SCPI Iroko Zen,662.5,47818.32,False,0.071,0.3,5,
+Claire,100.0,SCPI Iroko Zen,883.33,63757.76,False,0.071,0.3,5,
+Claire,93.17,SCPI Sofidynamic,823.0,59452.75,False,0.095,0.3,5,
+Claire,25.0,SCPI Sofidynamic,220.83,15952.79,False,0.095,0.3,5,
+Claire,50.0,SCPI Sofidynamic,441.67,31905.58,False,0.095,0.3,5,
+Claire,75.0,SCPI Sofidynamic,662.5,47858.38,False,0.095,0.3,5,
+Claire,100.0,SCPI Sofidynamic,883.33,63811.17,False,0.095,0.3,5,
+David,47.89,Livret A,838.0,404225.21,True,0.024,0.0,0,22950.0
+David,25.0,Livret A,437.5,211036.43,False,0.024,0.0,0,22950.0
+David,50.0,Livret A,875.0,422072.86,True,0.024,0.0,0,22950.0
+David,75.0,Livret A,1312.5,633109.29,True,0.024,0.0,0,22950.0
+David,100.0,Livret A,1750.0,844145.72,True,0.024,0.0,0,22950.0
+David,47.89,LDDS,838.0,404225.21,True,0.024,0.0,0,12000.0
+David,25.0,LDDS,437.5,211036.43,False,0.024,0.0,0,12000.0
+David,50.0,LDDS,875.0,422072.86,True,0.024,0.0,0,12000.0
+David,25.0,LEP,437.5,211513.63,False,0.035,0.0,0,7700.0
+David,47.89,PEL (2025),838.0,403681.99,True,0.0175,0.3,4,61200.0
+David,25.0,PEL (2025),437.5,210752.83,False,0.0175,0.3,4,61200.0
+David,50.0,PEL (2025),875.0,421505.65,True,0.0175,0.3,4,61200.0
+David,75.0,PEL (2025),1312.5,632258.48,True,0.0175,0.3,4,61200.0
+David,100.0,PEL (2025),1750.0,843011.31,True,0.0175,0.3,4,61200.0
+David,47.89,Assurance Vie – euros,838.0,404304.64,True,0.025,0.172,8,150000.0
+David,25.0,Assurance Vie – euros,437.5,211077.9,False,0.025,0.172,8,150000.0
+David,50.0,Assurance Vie – euros,875.0,422155.8,True,0.025,0.172,8,150000.0
+David,75.0,Assurance Vie – euros,1312.5,633233.7,True,0.025,0.172,8,150000.0
+David,100.0,Assurance Vie – euros,1750.0,844311.6,True,0.025,0.172,8,150000.0
+David,47.89,Assurance Vie – UC Risque faible,838.0,405134.26,True,0.035,0.172,8,200000.0
+David,25.0,Assurance Vie – UC Risque faible,437.5,211511.03,False,0.035,0.172,8,200000.0
+David,50.0,Assurance Vie – UC Risque faible,875.0,423022.05,True,0.035,0.172,8,200000.0
+David,75.0,Assurance Vie – UC Risque faible,1312.5,634533.08,True,0.035,0.172,8,200000.0
+David,100.0,Assurance Vie – UC Risque faible,1750.0,846044.1,True,0.035,0.172,8,200000.0
+David,47.89,Assurance Vie – UC Risque modéré,838.0,405966.04,True,0.045,0.172,8,200000.0
+David,25.0,Assurance Vie – UC Risque modéré,437.5,211945.28,False,0.045,0.172,8,200000.0
+David,50.0,Assurance Vie – UC Risque modéré,875.0,423890.56,True,0.045,0.172,8,200000.0
+David,75.0,Assurance Vie – UC Risque modéré,1312.5,635835.84,True,0.045,0.172,8,200000.0
+David,100.0,Assurance Vie – UC Risque modéré,1750.0,847781.12,True,0.045,0.172,8,200000.0
+David,47.89,PEA – profil prudent,838.0,405966.04,True,0.045,0.172,5,150000.0
+David,25.0,PEA – profil prudent,437.5,211945.28,False,0.045,0.172,5,150000.0
+David,50.0,PEA – profil prudent,875.0,423890.56,True,0.045,0.172,5,150000.0
+David,75.0,PEA – profil prudent,1312.5,635835.84,True,0.045,0.172,5,150000.0
+David,100.0,PEA – profil prudent,1750.0,847781.12,True,0.045,0.172,5,150000.0
+David,47.89,PEA – profil équilibré,838.0,407217.79,True,0.06,0.172,5,150000.0
+David,25.0,PEA – profil équilibré,437.5,212598.79,False,0.06,0.172,5,150000.0
+David,50.0,PEA – profil équilibré,875.0,425197.57,True,0.06,0.172,5,150000.0
+David,75.0,PEA – profil équilibré,1312.5,637796.36,True,0.06,0.172,5,150000.0
+David,100.0,PEA – profil équilibré,1750.0,850395.14,True,0.06,0.172,5,150000.0
+David,47.89,PEA – profil dynamique,838.0,408894.4,True,0.08,0.172,5,150000.0
+David,25.0,PEA – profil dynamique,437.5,213474.11,False,0.08,0.172,5,150000.0
+David,50.0,PEA – profil dynamique,875.0,426948.21,True,0.08,0.172,5,150000.0
+David,75.0,PEA – profil dynamique,1312.5,640422.32,True,0.08,0.172,5,150000.0
+David,100.0,PEA – profil dynamique,1750.0,853896.42,True,0.08,0.172,5,150000.0
+David,47.89,SCPI Iroko Zen,838.0,408131.28,True,0.071,0.3,5,
+David,25.0,SCPI Iroko Zen,437.5,213075.7,False,0.071,0.3,5,
+David,50.0,SCPI Iroko Zen,875.0,426151.4,True,0.071,0.3,5,
+David,75.0,SCPI Iroko Zen,1312.5,639227.1,True,0.071,0.3,5,
+David,100.0,SCPI Iroko Zen,1750.0,852302.79,True,0.071,0.3,5,
+David,47.89,SCPI Sofidynamic,838.0,410147.45,True,0.095,0.3,5,
+David,25.0,SCPI Sofidynamic,437.5,214128.3,True,0.095,0.3,5,
+David,50.0,SCPI Sofidynamic,875.0,428256.59,True,0.095,0.3,5,
+David,75.0,SCPI Sofidynamic,1312.5,642384.89,True,0.095,0.3,5,
+David,100.0,SCPI Sofidynamic,1750.0,856513.18,True,0.095,0.3,5,
+Emma,66.61,Livret A,1310.0,252033.72,True,0.024,0.0,0,22950.0
+Emma,25.0,Livret A,491.67,94592.81,False,0.024,0.0,0,22950.0
+Emma,50.0,Livret A,983.33,189185.61,False,0.024,0.0,0,22950.0
+Emma,75.0,Livret A,1475.0,283778.42,True,0.024,0.0,0,22950.0
+Emma,25.0,LDDS,491.67,94592.81,False,0.024,0.0,0,12000.0
+Emma,50.0,LDDS,983.33,189185.61,False,0.024,0.0,0,12000.0
+Emma,25.0,LEP,491.67,94681.33,False,0.035,0.0,0,7700.0
+Emma,66.61,PEL (2025),1310.0,251893.34,True,0.0175,0.3,4,61200.0
+Emma,25.0,PEL (2025),491.67,94540.12,False,0.0175,0.3,4,61200.0
+Emma,50.0,PEL (2025),983.33,189080.24,False,0.0175,0.3,4,61200.0
+Emma,75.0,PEL (2025),1475.0,283620.36,True,0.0175,0.3,4,61200.0
+Emma,100.0,PEL (2025),1966.67,378160.49,True,0.0175,0.3,4,61200.0
+Emma,66.61,Assurance Vie – euros,1310.0,252054.23,True,0.025,0.172,8,150000.0
+Emma,25.0,Assurance Vie – euros,491.67,94600.51,False,0.025,0.172,8,150000.0
+Emma,50.0,Assurance Vie – euros,983.33,189201.01,False,0.025,0.172,8,150000.0
+Emma,75.0,Assurance Vie – euros,1475.0,283801.52,True,0.025,0.172,8,150000.0
+Emma,100.0,Assurance Vie – euros,1966.67,378402.02,True,0.025,0.172,8,150000.0
+Emma,66.61,Assurance Vie – UC Risque faible,1310.0,252268.29,True,0.035,0.172,8,200000.0
+Emma,25.0,Assurance Vie – UC Risque faible,491.67,94680.85,False,0.035,0.172,8,200000.0
+Emma,50.0,Assurance Vie – UC Risque faible,983.33,189361.7,False,0.035,0.172,8,200000.0
+Emma,75.0,Assurance Vie – UC Risque faible,1475.0,284042.54,True,0.035,0.172,8,200000.0
+Emma,100.0,Assurance Vie – UC Risque faible,1966.67,378723.39,True,0.035,0.172,8,200000.0
+Emma,66.61,Assurance Vie – UC Risque modéré,1310.0,252482.57,True,0.045,0.172,8,200000.0
+Emma,25.0,Assurance Vie – UC Risque modéré,491.67,94761.27,False,0.045,0.172,8,200000.0
+Emma,50.0,Assurance Vie – UC Risque modéré,983.33,189522.54,False,0.045,0.172,8,200000.0
+Emma,75.0,Assurance Vie – UC Risque modéré,1475.0,284283.81,True,0.045,0.172,8,200000.0
+Emma,100.0,Assurance Vie – UC Risque modéré,1966.67,379045.09,True,0.045,0.172,8,200000.0
+Emma,66.61,PEA – profil prudent,1310.0,252482.57,True,0.045,0.172,5,150000.0
+Emma,25.0,PEA – profil prudent,491.67,94761.27,False,0.045,0.172,5,150000.0
+Emma,50.0,PEA – profil prudent,983.33,189522.54,False,0.045,0.172,5,150000.0
+Emma,75.0,PEA – profil prudent,1475.0,284283.81,True,0.045,0.172,5,150000.0
+Emma,100.0,PEA – profil prudent,1966.67,379045.09,True,0.045,0.172,5,150000.0
+Emma,66.61,PEA – profil équilibré,1310.0,252804.4,True,0.06,0.172,5,150000.0
+Emma,25.0,PEA – profil équilibré,491.67,94882.06,False,0.06,0.172,5,150000.0
+Emma,50.0,PEA – profil équilibré,983.33,189764.11,False,0.06,0.172,5,150000.0
+Emma,75.0,PEA – profil équilibré,1475.0,284646.17,True,0.06,0.172,5,150000.0
+Emma,100.0,PEA – profil équilibré,1966.67,379528.23,True,0.06,0.172,5,150000.0
+Emma,66.61,PEA – profil dynamique,1310.0,253234.24,True,0.08,0.172,5,150000.0
+Emma,25.0,PEA – profil dynamique,491.67,95043.39,False,0.08,0.172,5,150000.0
+Emma,50.0,PEA – profil dynamique,983.33,190086.77,False,0.08,0.172,5,150000.0
+Emma,75.0,PEA – profil dynamique,1475.0,285130.16,True,0.08,0.172,5,150000.0
+Emma,100.0,PEA – profil dynamique,1966.67,380173.55,True,0.08,0.172,5,150000.0
+Emma,66.61,SCPI Iroko Zen,1310.0,253038.76,True,0.071,0.3,5,
+Emma,25.0,SCPI Iroko Zen,491.67,94970.02,False,0.071,0.3,5,
+Emma,50.0,SCPI Iroko Zen,983.33,189940.03,False,0.071,0.3,5,
+Emma,75.0,SCPI Iroko Zen,1475.0,284910.05,True,0.071,0.3,5,
+Emma,100.0,SCPI Iroko Zen,1966.67,379880.07,True,0.071,0.3,5,
+Emma,66.61,SCPI Sofidynamic,1310.0,253554.58,True,0.095,0.3,5,
+Emma,25.0,SCPI Sofidynamic,491.67,95163.62,False,0.095,0.3,5,
+Emma,50.0,SCPI Sofidynamic,983.33,190327.23,False,0.095,0.3,5,
+Emma,75.0,SCPI Sofidynamic,1475.0,285490.85,True,0.095,0.3,5,
+Emma,100.0,SCPI Sofidynamic,1966.67,380654.46,True,0.095,0.3,5,
+Fabrice,188.08,Livret A,815.0,225588.97,True,0.024,0.0,0,22950.0
+Fabrice,25.0,Livret A,108.33,29986.26,True,0.024,0.0,0,22950.0
+Fabrice,50.0,Livret A,216.67,59972.53,True,0.024,0.0,0,22950.0
+Fabrice,75.0,Livret A,325.0,89958.79,True,0.024,0.0,0,22950.0
+Fabrice,100.0,Livret A,433.33,119945.05,True,0.024,0.0,0,22950.0
+Fabrice,188.08,LDDS,815.0,225588.97,True,0.024,0.0,0,12000.0
+Fabrice,25.0,LDDS,108.33,29986.26,True,0.024,0.0,0,12000.0
+Fabrice,50.0,LDDS,216.67,59972.53,True,0.024,0.0,0,12000.0
+Fabrice,75.0,LDDS,325.0,89958.79,True,0.024,0.0,0,12000.0
+Fabrice,100.0,LDDS,433.33,119945.05,True,0.024,0.0,0,12000.0
+Fabrice,25.0,LEP,108.33,30025.9,True,0.035,0.0,0,7700.0
+Fabrice,50.0,LEP,216.67,60051.81,True,0.035,0.0,0,7700.0
+Fabrice,75.0,LEP,325.0,90077.71,True,0.035,0.0,0,7700.0
+Fabrice,100.0,LEP,433.33,120103.61,True,0.035,0.0,0,7700.0
+Fabrice,188.08,PEL (2025),815.0,225411.56,True,0.0175,0.3,4,61200.0
+Fabrice,25.0,PEL (2025),108.33,29962.68,True,0.0175,0.3,4,61200.0
+Fabrice,50.0,PEL (2025),216.67,59925.36,True,0.0175,0.3,4,61200.0
+Fabrice,75.0,PEL (2025),325.0,89888.05,True,0.0175,0.3,4,61200.0
+Fabrice,100.0,PEL (2025),433.33,119850.73,True,0.0175,0.3,4,61200.0
+Fabrice,188.08,Assurance Vie – euros,815.0,225614.9,True,0.025,0.172,8,150000.0
+Fabrice,25.0,Assurance Vie – euros,108.33,29989.71,True,0.025,0.172,8,150000.0
+Fabrice,50.0,Assurance Vie – euros,216.67,59979.42,True,0.025,0.172,8,150000.0
+Fabrice,75.0,Assurance Vie – euros,325.0,89969.13,True,0.025,0.172,8,150000.0
+Fabrice,100.0,Assurance Vie – euros,433.33,119958.84,True,0.025,0.172,8,150000.0
+Fabrice,188.08,Assurance Vie – UC Risque faible,815.0,225885.55,True,0.035,0.172,8,200000.0
+Fabrice,25.0,Assurance Vie – UC Risque faible,108.33,30025.69,True,0.035,0.172,8,200000.0
+Fabrice,50.0,Assurance Vie – UC Risque faible,216.67,60051.37,True,0.035,0.172,8,200000.0
+Fabrice,75.0,Assurance Vie – UC Risque faible,325.0,90077.06,True,0.035,0.172,8,200000.0
+Fabrice,100.0,Assurance Vie – UC Risque faible,433.33,120102.75,True,0.035,0.172,8,200000.0
+Fabrice,188.08,Assurance Vie – UC Risque modéré,815.0,226156.6,True,0.045,0.172,8,200000.0
+Fabrice,25.0,Assurance Vie – UC Risque modéré,108.33,30061.72,True,0.045,0.172,8,200000.0
+Fabrice,50.0,Assurance Vie – UC Risque modéré,216.67,60123.43,True,0.045,0.172,8,200000.0
+Fabrice,75.0,Assurance Vie – UC Risque modéré,325.0,90185.15,True,0.045,0.172,8,200000.0
+Fabrice,100.0,Assurance Vie – UC Risque modéré,433.33,120246.86,True,0.045,0.172,8,200000.0
+Fabrice,188.08,PEA – profil prudent,815.0,226156.6,True,0.045,0.172,5,150000.0
+Fabrice,25.0,PEA – profil prudent,108.33,30061.72,True,0.045,0.172,5,150000.0
+Fabrice,50.0,PEA – profil prudent,216.67,60123.43,True,0.045,0.172,5,150000.0
+Fabrice,75.0,PEA – profil prudent,325.0,90185.15,True,0.045,0.172,5,150000.0
+Fabrice,100.0,PEA – profil prudent,433.33,120246.86,True,0.045,0.172,5,150000.0
+Fabrice,188.08,PEA – profil équilibré,815.0,226563.92,True,0.06,0.172,5,150000.0
+Fabrice,25.0,PEA – profil équilibré,108.33,30115.86,True,0.06,0.172,5,150000.0
+Fabrice,50.0,PEA – profil équilibré,216.67,60231.72,True,0.06,0.172,5,150000.0
+Fabrice,75.0,PEA – profil équilibré,325.0,90347.57,True,0.06,0.172,5,150000.0
+Fabrice,100.0,PEA – profil équilibré,433.33,120463.43,True,0.06,0.172,5,150000.0
+Fabrice,188.08,PEA – profil dynamique,815.0,227108.41,True,0.08,0.172,5,150000.0
+Fabrice,25.0,PEA – profil dynamique,108.33,30188.23,True,0.08,0.172,5,150000.0
+Fabrice,50.0,PEA – profil dynamique,216.67,60376.47,True,0.08,0.172,5,150000.0
+Fabrice,75.0,PEA – profil dynamique,325.0,90564.7,True,0.08,0.172,5,150000.0
+Fabrice,100.0,PEA – profil dynamique,433.33,120752.94,True,0.08,0.172,5,150000.0
+Fabrice,188.08,SCPI Iroko Zen,815.0,226860.73,True,0.071,0.3,5,
+Fabrice,25.0,SCPI Iroko Zen,108.33,30155.31,True,0.071,0.3,5,
+Fabrice,50.0,SCPI Iroko Zen,216.67,60310.62,True,0.071,0.3,5,
+Fabrice,75.0,SCPI Iroko Zen,325.0,90465.93,True,0.071,0.3,5,
+Fabrice,100.0,SCPI Iroko Zen,433.33,120621.24,True,0.071,0.3,5,
+Fabrice,188.08,SCPI Sofidynamic,815.0,227514.52,True,0.095,0.3,5,
+Fabrice,25.0,SCPI Sofidynamic,108.33,30242.22,True,0.095,0.3,5,
+Fabrice,50.0,SCPI Sofidynamic,216.67,60484.43,True,0.095,0.3,5,
+Fabrice,75.0,SCPI Sofidynamic,325.0,90726.65,True,0.095,0.3,5,
+Fabrice,100.0,SCPI Sofidynamic,433.33,120968.87,True,0.095,0.3,5,
+Gina,44.26,Livret A,804.0,309961.63,True,0.024,0.0,0,22950.0
+Gina,25.0,Livret A,454.17,175092.34,True,0.024,0.0,0,22950.0
+Gina,50.0,Livret A,908.33,350184.68,True,0.024,0.0,0,22950.0
+Gina,75.0,Livret A,1362.5,525277.02,True,0.024,0.0,0,22950.0
+Gina,100.0,Livret A,1816.67,700369.36,True,0.024,0.0,0,22950.0
+Gina,44.26,LDDS,804.0,309961.63,True,0.024,0.0,0,12000.0
+Gina,25.0,LDDS,454.17,175092.34,True,0.024,0.0,0,12000.0
+Gina,50.0,LDDS,908.33,350184.68,True,0.024,0.0,0,12000.0
+Gina,25.0,LEP,454.17,175410.81,True,0.035,0.0,0,7700.0
+Gina,44.26,PEL (2025),804.0,309626.41,True,0.0175,0.3,4,61200.0
+Gina,25.0,PEL (2025),454.17,174902.98,True,0.0175,0.3,4,61200.0
+Gina,50.0,PEL (2025),908.33,349805.96,True,0.0175,0.3,4,61200.0
+Gina,75.0,PEL (2025),1362.5,524708.94,True,0.0175,0.3,4,61200.0
+Gina,100.0,PEL (2025),1816.67,699611.91,True,0.0175,0.3,4,61200.0
+Gina,44.26,Assurance Vie – euros,804.0,310010.64,True,0.025,0.172,8,150000.0
+Gina,25.0,Assurance Vie – euros,454.17,175120.02,True,0.025,0.172,8,150000.0
+Gina,50.0,Assurance Vie – euros,908.33,350240.04,True,0.025,0.172,8,150000.0
+Gina,75.0,Assurance Vie – euros,1362.5,525360.06,True,0.025,0.172,8,150000.0
+Gina,100.0,Assurance Vie – euros,1816.67,700480.09,True,0.025,0.172,8,150000.0
+Gina,44.26,Assurance Vie – UC Risque faible,804.0,310522.34,True,0.035,0.172,8,200000.0
+Gina,25.0,Assurance Vie – UC Risque faible,454.17,175409.07,True,0.035,0.172,8,200000.0
+Gina,50.0,Assurance Vie – UC Risque faible,908.33,350818.15,True,0.035,0.172,8,200000.0
+Gina,75.0,Assurance Vie – UC Risque faible,1362.5,526227.22,True,0.035,0.172,8,200000.0
+Gina,100.0,Assurance Vie – UC Risque faible,1816.67,701636.29,True,0.035,0.172,8,200000.0
+Gina,44.26,Assurance Vie – UC Risque modéré,804.0,311035.1,True,0.045,0.172,8,200000.0
+Gina,25.0,Assurance Vie – UC Risque modéré,454.17,175698.72,True,0.045,0.172,8,200000.0
+Gina,50.0,Assurance Vie – UC Risque modéré,908.33,351397.45,True,0.045,0.172,8,200000.0
+Gina,75.0,Assurance Vie – UC Risque modéré,1362.5,527096.17,True,0.045,0.172,8,200000.0
+Gina,100.0,Assurance Vie – UC Risque modéré,1816.67,702794.9,True,0.045,0.172,8,200000.0
+Gina,44.26,PEA – profil prudent,804.0,311035.1,True,0.045,0.172,5,150000.0
+Gina,25.0,PEA – profil prudent,454.17,175698.72,True,0.045,0.172,5,150000.0
+Gina,50.0,PEA – profil prudent,908.33,351397.45,True,0.045,0.172,5,150000.0
+Gina,75.0,PEA – profil prudent,1362.5,527096.17,True,0.045,0.172,5,150000.0
+Gina,100.0,PEA – profil prudent,1816.67,702794.9,True,0.045,0.172,5,150000.0
+Gina,44.26,PEA – profil équilibré,804.0,311806.23,True,0.06,0.172,5,150000.0
+Gina,25.0,PEA – profil équilibré,454.17,176134.32,True,0.06,0.172,5,150000.0
+Gina,50.0,PEA – profil équilibré,908.33,352268.65,True,0.06,0.172,5,150000.0
+Gina,75.0,PEA – profil équilibré,1362.5,528402.97,True,0.06,0.172,5,150000.0
+Gina,100.0,PEA – profil équilibré,1816.67,704537.3,True,0.06,0.172,5,150000.0
+Gina,44.26,PEA – profil dynamique,804.0,312838.14,True,0.08,0.172,5,150000.0
+Gina,25.0,PEA – profil dynamique,454.17,176717.23,True,0.08,0.172,5,150000.0
+Gina,50.0,PEA – profil dynamique,908.33,353434.47,True,0.08,0.172,5,150000.0
+Gina,75.0,PEA – profil dynamique,1362.5,530151.7,True,0.08,0.172,5,150000.0
+Gina,100.0,PEA – profil dynamique,1816.67,706868.93,True,0.08,0.172,5,150000.0
+Gina,44.26,SCPI Iroko Zen,804.0,312368.59,True,0.071,0.3,5,
+Gina,25.0,SCPI Iroko Zen,454.17,176451.99,True,0.071,0.3,5,
+Gina,50.0,SCPI Iroko Zen,908.33,352903.98,True,0.071,0.3,5,
+Gina,75.0,SCPI Iroko Zen,1362.5,529355.97,True,0.071,0.3,5,
+Gina,100.0,SCPI Iroko Zen,1816.67,705807.96,True,0.071,0.3,5,
+Gina,44.26,SCPI Sofidynamic,804.0,313608.62,True,0.095,0.3,5,
+Gina,25.0,SCPI Sofidynamic,454.17,177152.47,True,0.095,0.3,5,
+Gina,50.0,SCPI Sofidynamic,908.33,354304.93,True,0.095,0.3,5,
+Gina,75.0,SCPI Sofidynamic,1362.5,531457.4,True,0.095,0.3,5,
+Gina,100.0,SCPI Sofidynamic,1816.67,708609.86,True,0.095,0.3,5,
+Henri,121.53,Livret A,1823.0,109458.78,True,0.024,0.0,0,22950.0
+Henri,25.0,Livret A,375.0,22516.21,False,0.024,0.0,0,22950.0
+Henri,50.0,Livret A,750.0,45032.41,False,0.024,0.0,0,22950.0
+Henri,75.0,Livret A,1125.0,67548.62,False,0.024,0.0,0,22950.0
+Henri,100.0,Livret A,1500.0,90064.82,True,0.024,0.0,0,22950.0
+Henri,25.0,LDDS,375.0,22516.21,False,0.024,0.0,0,12000.0
+Henri,50.0,LDDS,750.0,45032.41,False,0.024,0.0,0,12000.0
+Henri,25.0,LEP,375.0,22523.64,False,0.035,0.0,0,7700.0
+Henri,121.53,PEL (2025),1823.0,109437.27,True,0.0175,0.3,4,61200.0
+Henri,25.0,PEL (2025),375.0,22511.78,False,0.0175,0.3,4,61200.0
+Henri,50.0,PEL (2025),750.0,45023.56,False,0.0175,0.3,4,61200.0
+Henri,75.0,PEL (2025),1125.0,67535.34,False,0.0175,0.3,4,61200.0
+Henri,100.0,PEL (2025),1500.0,90047.12,True,0.0175,0.3,4,61200.0
+Henri,121.53,PEA – profil prudent,1823.0,109527.5,True,0.045,0.172,5,150000.0
+Henri,25.0,PEA – profil prudent,375.0,22530.34,False,0.045,0.172,5,150000.0
+Henri,50.0,PEA – profil prudent,750.0,45060.68,False,0.045,0.172,5,150000.0
+Henri,75.0,PEA – profil prudent,1125.0,67591.02,False,0.045,0.172,5,150000.0
+Henri,100.0,PEA – profil prudent,1500.0,90121.36,True,0.045,0.172,5,150000.0
+Henri,121.53,PEA – profil équilibré,1823.0,109576.7,True,0.06,0.172,5,150000.0
+Henri,25.0,PEA – profil équilibré,375.0,22540.46,False,0.06,0.172,5,150000.0
+Henri,50.0,PEA – profil équilibré,750.0,45080.93,False,0.06,0.172,5,150000.0
+Henri,75.0,PEA – profil équilibré,1125.0,67621.39,False,0.06,0.172,5,150000.0
+Henri,100.0,PEA – profil équilibré,1500.0,90161.85,True,0.06,0.172,5,150000.0
+Henri,121.53,PEA – profil dynamique,1823.0,109642.34,True,0.08,0.172,5,150000.0
+Henri,25.0,PEA – profil dynamique,375.0,22553.96,False,0.08,0.172,5,150000.0
+Henri,50.0,PEA – profil dynamique,750.0,45107.93,False,0.08,0.172,5,150000.0
+Henri,75.0,PEA – profil dynamique,1125.0,67661.89,False,0.08,0.172,5,150000.0
+Henri,100.0,PEA – profil dynamique,1500.0,90215.86,True,0.08,0.172,5,150000.0
+Henri,121.53,SCPI Iroko Zen,1823.0,109612.5,True,0.071,0.3,5,
+Henri,25.0,SCPI Iroko Zen,375.0,22547.83,False,0.071,0.3,5,
+Henri,50.0,SCPI Iroko Zen,750.0,45095.65,False,0.071,0.3,5,
+Henri,75.0,SCPI Iroko Zen,1125.0,67643.48,False,0.071,0.3,5,
+Henri,100.0,SCPI Iroko Zen,1500.0,90191.31,True,0.071,0.3,5,
+Henri,121.53,SCPI Sofidynamic,1823.0,109691.19,True,0.095,0.3,5,
+Henri,25.0,SCPI Sofidynamic,375.0,22564.01,False,0.095,0.3,5,
+Henri,50.0,SCPI Sofidynamic,750.0,45128.03,False,0.095,0.3,5,
+Henri,75.0,SCPI Sofidynamic,1125.0,67692.04,False,0.095,0.3,5,
+Henri,100.0,SCPI Sofidynamic,1500.0,90256.05,True,0.095,0.3,5,
+Isabelle,103.74,Livret A,657.0,150156.03,True,0.024,0.0,0,22950.0
+Isabelle,25.0,Livret A,158.33,36186.76,False,0.024,0.0,0,22950.0
+Isabelle,50.0,Livret A,316.67,72373.53,False,0.024,0.0,0,22950.0
+Isabelle,75.0,Livret A,475.0,108560.29,True,0.024,0.0,0,22950.0
+Isabelle,100.0,Livret A,633.33,144747.06,True,0.024,0.0,0,22950.0
+Isabelle,103.74,LDDS,657.0,150156.03,True,0.024,0.0,0,12000.0
+Isabelle,25.0,LDDS,158.33,36186.76,False,0.024,0.0,0,12000.0
+Isabelle,50.0,LDDS,316.67,72373.53,False,0.024,0.0,0,12000.0
+Isabelle,75.0,LDDS,475.0,108560.29,True,0.024,0.0,0,12000.0
+Isabelle,100.0,LDDS,633.33,144747.06,True,0.024,0.0,0,12000.0
+Isabelle,25.0,LEP,158.33,36226.62,False,0.035,0.0,0,7700.0
+Isabelle,50.0,LEP,316.67,72453.23,False,0.035,0.0,0,7700.0
+Isabelle,75.0,LEP,475.0,108679.85,True,0.035,0.0,0,7700.0
+Isabelle,100.0,LEP,633.33,144906.46,True,0.035,0.0,0,7700.0
+Isabelle,103.74,PEL (2025),657.0,150057.63,True,0.0175,0.3,4,61200.0
+Isabelle,25.0,PEL (2025),158.33,36163.05,False,0.0175,0.3,4,61200.0
+Isabelle,50.0,PEL (2025),316.67,72326.1,False,0.0175,0.3,4,61200.0
+Isabelle,75.0,PEL (2025),475.0,108489.15,True,0.0175,0.3,4,61200.0
+Isabelle,100.0,PEL (2025),633.33,144652.21,True,0.0175,0.3,4,61200.0
+Isabelle,103.74,Assurance Vie – euros,657.0,150170.41,True,0.025,0.172,8,150000.0
+Isabelle,25.0,Assurance Vie – euros,158.33,36190.23,False,0.025,0.172,8,150000.0
+Isabelle,50.0,Assurance Vie – euros,316.67,72380.46,False,0.025,0.172,8,150000.0
+Isabelle,75.0,Assurance Vie – euros,475.0,108570.69,True,0.025,0.172,8,150000.0
+Isabelle,100.0,Assurance Vie – euros,633.33,144760.92,True,0.025,0.172,8,150000.0
+Isabelle,103.74,Assurance Vie – UC Risque faible,657.0,150320.48,True,0.035,0.172,8,200000.0
+Isabelle,25.0,Assurance Vie – UC Risque faible,158.33,36226.4,False,0.035,0.172,8,200000.0
+Isabelle,50.0,Assurance Vie – UC Risque faible,316.67,72452.8,False,0.035,0.172,8,200000.0
+Isabelle,75.0,Assurance Vie – UC Risque faible,475.0,108679.19,True,0.035,0.172,8,200000.0
+Isabelle,100.0,Assurance Vie – UC Risque faible,633.33,144905.59,True,0.035,0.172,8,200000.0
+Isabelle,103.74,Assurance Vie – UC Risque modéré,657.0,150470.74,True,0.045,0.172,8,200000.0
+Isabelle,25.0,Assurance Vie – UC Risque modéré,158.33,36262.61,False,0.045,0.172,8,200000.0
+Isabelle,50.0,Assurance Vie – UC Risque modéré,316.67,72525.22,False,0.045,0.172,8,200000.0
+Isabelle,75.0,Assurance Vie – UC Risque modéré,475.0,108787.83,True,0.045,0.172,8,200000.0
+Isabelle,100.0,Assurance Vie – UC Risque modéré,633.33,145050.44,True,0.045,0.172,8,200000.0
+Isabelle,103.74,PEA – profil prudent,657.0,150470.74,True,0.045,0.172,5,150000.0
+Isabelle,25.0,PEA – profil prudent,158.33,36262.61,False,0.045,0.172,5,150000.0
+Isabelle,50.0,PEA – profil prudent,316.67,72525.22,False,0.045,0.172,5,150000.0
+Isabelle,75.0,PEA – profil prudent,475.0,108787.83,True,0.045,0.172,5,150000.0
+Isabelle,100.0,PEA – profil prudent,633.33,145050.44,True,0.045,0.172,5,150000.0
+Isabelle,103.74,PEA – profil équilibré,657.0,150696.47,True,0.06,0.172,5,150000.0
+Isabelle,25.0,PEA – profil équilibré,158.33,36317.01,False,0.06,0.172,5,150000.0
+Isabelle,50.0,PEA – profil équilibré,316.67,72634.02,False,0.06,0.172,5,150000.0
+Isabelle,75.0,PEA – profil équilibré,475.0,108951.02,True,0.06,0.172,5,150000.0
+Isabelle,100.0,PEA – profil équilibré,633.33,145268.03,True,0.06,0.172,5,150000.0
+Isabelle,103.74,PEA – profil dynamique,657.0,150998.07,True,0.08,0.172,5,150000.0
+Isabelle,25.0,PEA – profil dynamique,158.33,36389.69,False,0.08,0.172,5,150000.0
+Isabelle,50.0,PEA – profil dynamique,316.67,72779.38,False,0.08,0.172,5,150000.0
+Isabelle,75.0,PEA – profil dynamique,475.0,109169.08,True,0.08,0.172,5,150000.0
+Isabelle,100.0,PEA – profil dynamique,633.33,145558.77,True,0.08,0.172,5,150000.0
+Isabelle,103.74,SCPI Iroko Zen,657.0,150860.89,True,0.071,0.3,5,
+Isabelle,25.0,SCPI Iroko Zen,158.33,36356.63,False,0.071,0.3,5,
+Isabelle,50.0,SCPI Iroko Zen,316.67,72713.27,False,0.071,0.3,5,
+Isabelle,75.0,SCPI Iroko Zen,475.0,109069.9,True,0.071,0.3,5,
+Isabelle,100.0,SCPI Iroko Zen,633.33,145426.53,True,0.071,0.3,5,
+Isabelle,103.74,SCPI Sofidynamic,657.0,151222.91,True,0.095,0.3,5,
+Isabelle,25.0,SCPI Sofidynamic,158.33,36443.88,False,0.095,0.3,5,
+Isabelle,50.0,SCPI Sofidynamic,316.67,72887.76,False,0.095,0.3,5,
+Isabelle,75.0,SCPI Sofidynamic,475.0,109331.63,True,0.095,0.3,5,
+Isabelle,100.0,SCPI Sofidynamic,633.33,145775.51,True,0.095,0.3,5,
+Julien,61.15,Livret A,530.0,255655.56,True,0.024,0.0,0,22950.0
+Julien,25.0,Livret A,216.67,104513.28,False,0.024,0.0,0,22950.0
+Julien,50.0,Livret A,433.33,209026.56,True,0.024,0.0,0,22950.0
+Julien,75.0,Livret A,650.0,313539.84,True,0.024,0.0,0,22950.0
+Julien,100.0,Livret A,866.67,418053.12,True,0.024,0.0,0,22950.0
+Julien,61.15,LDDS,530.0,255655.56,True,0.024,0.0,0,12000.0
+Julien,25.0,LDDS,216.67,104513.28,False,0.024,0.0,0,12000.0
+Julien,50.0,LDDS,433.33,209026.56,True,0.024,0.0,0,12000.0
+Julien,75.0,LDDS,650.0,313539.84,True,0.024,0.0,0,12000.0
+Julien,100.0,LDDS,866.67,418053.12,True,0.024,0.0,0,12000.0
+Julien,61.15,LEP,530.0,256233.65,True,0.035,0.0,0,7700.0
+Julien,25.0,LEP,216.67,104749.61,False,0.035,0.0,0,7700.0
+Julien,50.0,LEP,433.33,209499.21,True,0.035,0.0,0,7700.0
+Julien,61.15,PEL (2025),530.0,255312.0,True,0.0175,0.3,4,61200.0
+Julien,25.0,PEL (2025),216.67,104372.83,False,0.0175,0.3,4,61200.0
+Julien,50.0,PEL (2025),433.33,208745.66,True,0.0175,0.3,4,61200.0
+Julien,75.0,PEL (2025),650.0,313118.49,True,0.0175,0.3,4,61200.0
+Julien,100.0,PEL (2025),866.67,417491.31,True,0.0175,0.3,4,61200.0
+Julien,61.15,Assurance Vie – euros,530.0,255705.8,True,0.025,0.172,8,150000.0
+Julien,25.0,Assurance Vie – euros,216.67,104533.82,False,0.025,0.172,8,150000.0
+Julien,50.0,Assurance Vie – euros,433.33,209067.63,True,0.025,0.172,8,150000.0
+Julien,75.0,Assurance Vie – euros,650.0,313601.45,True,0.025,0.172,8,150000.0
+Julien,100.0,Assurance Vie – euros,866.67,418135.27,True,0.025,0.172,8,150000.0
+Julien,61.15,Assurance Vie – UC Risque faible,530.0,256230.5,True,0.035,0.172,8,200000.0
+Julien,25.0,Assurance Vie – UC Risque faible,216.67,104748.32,False,0.035,0.172,8,200000.0
+Julien,50.0,Assurance Vie – UC Risque faible,433.33,209496.63,True,0.035,0.172,8,200000.0
+Julien,75.0,Assurance Vie – UC Risque faible,650.0,314244.95,True,0.035,0.172,8,200000.0
+Julien,100.0,Assurance Vie – UC Risque faible,866.67,418993.27,True,0.035,0.172,8,200000.0
+Julien,61.15,Assurance Vie – UC Risque modéré,530.0,256756.57,True,0.045,0.172,8,200000.0
+Julien,25.0,Assurance Vie – UC Risque modéré,216.67,104963.38,False,0.045,0.172,8,200000.0
+Julien,50.0,Assurance Vie – UC Risque modéré,433.33,209926.75,True,0.045,0.172,8,200000.0
+Julien,75.0,Assurance Vie – UC Risque modéré,650.0,314890.13,True,0.045,0.172,8,200000.0
+Julien,100.0,Assurance Vie – UC Risque modéré,866.67,419853.51,True,0.045,0.172,8,200000.0
+Julien,61.15,PEA – profil prudent,530.0,256756.57,True,0.045,0.172,5,150000.0
+Julien,25.0,PEA – profil prudent,216.67,104963.38,False,0.045,0.172,5,150000.0
+Julien,50.0,PEA – profil prudent,433.33,209926.75,True,0.045,0.172,5,150000.0
+Julien,75.0,PEA – profil prudent,650.0,314890.13,True,0.045,0.172,5,150000.0
+Julien,100.0,PEA – profil prudent,866.67,419853.51,True,0.045,0.172,5,150000.0
+Julien,61.15,PEA – profil équilibré,530.0,257548.24,True,0.06,0.172,5,150000.0
+Julien,25.0,PEA – profil équilibré,216.67,105287.02,True,0.06,0.172,5,150000.0
+Julien,50.0,PEA – profil équilibré,433.33,210574.03,True,0.06,0.172,5,150000.0
+Julien,75.0,PEA – profil équilibré,650.0,315861.05,True,0.06,0.172,5,150000.0
+Julien,100.0,PEA – profil équilibré,866.67,421148.07,True,0.06,0.172,5,150000.0
+Julien,61.15,PEA – profil dynamique,530.0,258608.63,True,0.08,0.172,5,150000.0
+Julien,25.0,PEA – profil dynamique,216.67,105720.51,True,0.08,0.172,5,150000.0
+Julien,50.0,PEA – profil dynamique,433.33,211441.02,True,0.08,0.172,5,150000.0
+Julien,75.0,PEA – profil dynamique,650.0,317161.53,True,0.08,0.172,5,150000.0
+Julien,100.0,PEA – profil dynamique,866.67,422882.04,True,0.08,0.172,5,150000.0
+Julien,61.15,SCPI Iroko Zen,530.0,258125.99,True,0.071,0.3,5,
+Julien,25.0,SCPI Iroko Zen,216.67,105523.2,True,0.071,0.3,5,
+Julien,50.0,SCPI Iroko Zen,433.33,211046.41,True,0.071,0.3,5,
+Julien,75.0,SCPI Iroko Zen,650.0,316569.61,True,0.071,0.3,5,
+Julien,100.0,SCPI Iroko Zen,866.67,422092.81,True,0.071,0.3,5,
+Julien,61.15,SCPI Sofidynamic,530.0,259401.13,True,0.095,0.3,5,
+Julien,25.0,SCPI Sofidynamic,216.67,106044.49,True,0.095,0.3,5,
+Julien,50.0,SCPI Sofidynamic,433.33,212088.98,True,0.095,0.3,5,
+Julien,75.0,SCPI Sofidynamic,650.0,318133.47,True,0.095,0.3,5,
+Julien,100.0,SCPI Sofidynamic,866.67,424177.96,True,0.095,0.3,5,
+Karim,68.49,Livret A,799.0,163348.52,True,0.024,0.0,0,22950.0
+Karim,25.0,Livret A,291.67,59628.68,False,0.024,0.0,0,22950.0
+Karim,50.0,Livret A,583.33,119257.37,True,0.024,0.0,0,22950.0
+Karim,75.0,Livret A,875.0,178886.05,True,0.024,0.0,0,22950.0
+Karim,100.0,Livret A,1166.67,238514.74,True,0.024,0.0,0,22950.0
+Karim,68.49,LDDS,799.0,163348.52,True,0.024,0.0,0,12000.0
+Karim,25.0,LDDS,291.67,59628.68,False,0.024,0.0,0,12000.0
+Karim,50.0,LDDS,583.33,119257.37,True,0.024,0.0,0,12000.0
+Karim,75.0,LDDS,875.0,178886.05,True,0.024,0.0,0,12000.0
+Karim,25.0,LEP,291.67,59687.78,False,0.035,0.0,0,7700.0
+Karim,50.0,LEP,583.33,119375.55,True,0.035,0.0,0,7700.0
+Karim,68.49,PEL (2025),799.0,163252.19,True,0.0175,0.3,4,61200.0
+Karim,25.0,PEL (2025),291.67,59593.52,False,0.0175,0.3,4,61200.0
+Karim,50.0,PEL (2025),583.33,119187.04,True,0.0175,0.3,4,61200.0
+Karim,75.0,PEL (2025),875.0,178780.56,True,0.0175,0.3,4,61200.0
+Karim,100.0,PEL (2025),1166.67,238374.07,True,0.0175,0.3,4,61200.0
+Karim,68.49,Assurance Vie – euros,799.0,163362.6,True,0.025,0.172,8,150000.0
+Karim,25.0,Assurance Vie – euros,291.67,59633.82,False,0.025,0.172,8,150000.0
+Karim,50.0,Assurance Vie – euros,583.33,119267.65,True,0.025,0.172,8,150000.0
+Karim,75.0,Assurance Vie – euros,875.0,178901.47,True,0.025,0.172,8,150000.0
+Karim,100.0,Assurance Vie – euros,1166.67,238535.29,True,0.025,0.172,8,150000.0
+Karim,68.49,Assurance Vie – UC Risque faible,799.0,163509.51,True,0.035,0.172,8,200000.0
+Karim,25.0,Assurance Vie – UC Risque faible,291.67,59687.45,False,0.035,0.172,8,200000.0
+Karim,50.0,Assurance Vie – UC Risque faible,583.33,119374.9,True,0.035,0.172,8,200000.0
+Karim,75.0,Assurance Vie – UC Risque faible,875.0,179062.36,True,0.035,0.172,8,200000.0
+Karim,100.0,Assurance Vie – UC Risque faible,1166.67,238749.81,True,0.035,0.172,8,200000.0
+Karim,68.49,Assurance Vie – UC Risque modéré,799.0,163656.58,True,0.045,0.172,8,200000.0
+Karim,25.0,Assurance Vie – UC Risque modéré,291.67,59741.14,False,0.045,0.172,8,200000.0
+Karim,50.0,Assurance Vie – UC Risque modéré,583.33,119482.28,True,0.045,0.172,8,200000.0
+Karim,75.0,Assurance Vie – UC Risque modéré,875.0,179223.42,True,0.045,0.172,8,200000.0
+Karim,100.0,Assurance Vie – UC Risque modéré,1166.67,238964.56,True,0.045,0.172,8,200000.0
+Karim,68.49,PEA – profil prudent,799.0,163656.58,True,0.045,0.172,5,150000.0
+Karim,25.0,PEA – profil prudent,291.67,59741.14,False,0.045,0.172,5,150000.0
+Karim,50.0,PEA – profil prudent,583.33,119482.28,True,0.045,0.172,5,150000.0
+Karim,75.0,PEA – profil prudent,875.0,179223.42,True,0.045,0.172,5,150000.0
+Karim,100.0,PEA – profil prudent,1166.67,238964.56,True,0.045,0.172,5,150000.0
+Karim,68.49,PEA – profil équilibré,799.0,163877.48,True,0.06,0.172,5,150000.0
+Karim,25.0,PEA – profil équilibré,291.67,59821.78,False,0.06,0.172,5,150000.0
+Karim,50.0,PEA – profil équilibré,583.33,119643.55,True,0.06,0.172,5,150000.0
+Karim,75.0,PEA – profil équilibré,875.0,179465.33,True,0.06,0.172,5,150000.0
+Karim,100.0,PEA – profil équilibré,1166.67,239287.1,True,0.06,0.172,5,150000.0
+Karim,68.49,PEA – profil dynamique,799.0,164172.57,True,0.08,0.172,5,150000.0
+Karim,25.0,PEA – profil dynamique,291.67,59929.49,False,0.08,0.172,5,150000.0
+Karim,50.0,PEA – profil dynamique,583.33,119858.99,True,0.08,0.172,5,150000.0
+Karim,75.0,PEA – profil dynamique,875.0,179788.48,True,0.08,0.172,5,150000.0
+Karim,100.0,PEA – profil dynamique,1166.67,239717.97,True,0.08,0.172,5,150000.0
+Karim,68.49,SCPI Iroko Zen,799.0,164038.36,True,0.071,0.3,5,
+Karim,25.0,SCPI Iroko Zen,291.67,59880.5,False,0.071,0.3,5,
+Karim,50.0,SCPI Iroko Zen,583.33,119761.01,True,0.071,0.3,5,
+Karim,75.0,SCPI Iroko Zen,875.0,179641.51,True,0.071,0.3,5,
+Karim,100.0,SCPI Iroko Zen,1166.67,239522.01,True,0.071,0.3,5,
+Karim,68.49,SCPI Sofidynamic,799.0,164392.5,True,0.095,0.3,5,
+Karim,25.0,SCPI Sofidynamic,291.67,60009.78,False,0.095,0.3,5,
+Karim,50.0,SCPI Sofidynamic,583.33,120019.56,True,0.095,0.3,5,
+Karim,75.0,SCPI Sofidynamic,875.0,180029.33,True,0.095,0.3,5,
+Karim,100.0,SCPI Sofidynamic,1166.67,240039.11,True,0.095,0.3,5,
+Laura,31.8,Livret A,424.0,127597.63,False,0.024,0.0,0,22950.0
+Laura,25.0,Livret A,333.33,100312.6,False,0.024,0.0,0,22950.0
+Laura,50.0,Livret A,666.67,200625.2,True,0.024,0.0,0,22950.0
+Laura,75.0,Livret A,1000.0,300937.8,True,0.024,0.0,0,22950.0
+Laura,100.0,Livret A,1333.33,401250.4,True,0.024,0.0,0,22950.0
+Laura,31.8,LDDS,424.0,127597.63,False,0.024,0.0,0,12000.0
+Laura,25.0,LDDS,333.33,100312.6,False,0.024,0.0,0,12000.0
+Laura,50.0,LDDS,666.67,200625.2,True,0.024,0.0,0,12000.0
+Laura,31.8,LEP,424.0,127780.38,False,0.035,0.0,0,7700.0
+Laura,25.0,LEP,333.33,100456.28,False,0.035,0.0,0,7700.0
+Laura,31.8,PEL (2025),424.0,127488.92,False,0.0175,0.3,4,61200.0
+Laura,25.0,PEL (2025),333.33,100227.14,False,0.0175,0.3,4,61200.0
+Laura,50.0,PEL (2025),666.67,200454.27,True,0.0175,0.3,4,61200.0
+Laura,75.0,PEL (2025),1000.0,300681.41,True,0.0175,0.3,4,61200.0
+Laura,100.0,PEL (2025),1333.33,400908.54,True,0.0175,0.3,4,61200.0
+Laura,31.8,Assurance Vie – euros,424.0,127613.52,False,0.025,0.172,8,150000.0
+Laura,25.0,Assurance Vie – euros,333.33,100325.09,False,0.025,0.172,8,150000.0
+Laura,50.0,Assurance Vie – euros,666.67,200650.18,True,0.025,0.172,8,150000.0
+Laura,75.0,Assurance Vie – euros,1000.0,300975.27,True,0.025,0.172,8,150000.0
+Laura,100.0,Assurance Vie – euros,1333.33,401300.36,True,0.025,0.172,8,150000.0
+Laura,31.8,Assurance Vie – UC Risque faible,424.0,127779.39,False,0.035,0.172,8,200000.0
+Laura,25.0,Assurance Vie – UC Risque faible,333.33,100455.49,False,0.035,0.172,8,200000.0
+Laura,50.0,Assurance Vie – UC Risque faible,666.67,200910.98,True,0.035,0.172,8,200000.0
+Laura,75.0,Assurance Vie – UC Risque faible,1000.0,301366.48,True,0.035,0.172,8,200000.0
+Laura,100.0,Assurance Vie – UC Risque faible,1333.33,401821.97,True,0.035,0.172,8,200000.0
+Laura,31.8,Assurance Vie – UC Risque modéré,424.0,127945.52,False,0.045,0.172,8,200000.0
+Laura,25.0,Assurance Vie – UC Risque modéré,333.33,100586.1,False,0.045,0.172,8,200000.0
+Laura,50.0,Assurance Vie – UC Risque modéré,666.67,201172.2,True,0.045,0.172,8,200000.0
+Laura,75.0,Assurance Vie – UC Risque modéré,1000.0,301758.3,True,0.045,0.172,8,200000.0
+Laura,100.0,Assurance Vie – UC Risque modéré,1333.33,402344.41,True,0.045,0.172,8,200000.0
+Laura,31.8,PEA – profil prudent,424.0,127945.52,False,0.045,0.172,5,150000.0
+Laura,25.0,PEA – profil prudent,333.33,100586.1,False,0.045,0.172,5,150000.0
+Laura,50.0,PEA – profil prudent,666.67,201172.2,True,0.045,0.172,5,150000.0
+Laura,75.0,PEA – profil prudent,1000.0,301758.3,True,0.045,0.172,5,150000.0
+Laura,100.0,PEA – profil prudent,1333.33,402344.41,True,0.045,0.172,5,150000.0
+Laura,31.8,PEA – profil équilibré,424.0,128195.22,False,0.06,0.172,5,150000.0
+Laura,25.0,PEA – profil équilibré,333.33,100782.41,False,0.06,0.172,5,150000.0
+Laura,50.0,PEA – profil équilibré,666.67,201564.82,True,0.06,0.172,5,150000.0
+Laura,75.0,PEA – profil équilibré,1000.0,302347.23,True,0.06,0.172,5,150000.0
+Laura,100.0,PEA – profil équilibré,1333.33,403129.64,True,0.06,0.172,5,150000.0
+Laura,31.8,PEA – profil dynamique,424.0,128529.1,False,0.08,0.172,5,150000.0
+Laura,25.0,PEA – profil dynamique,333.33,101044.89,False,0.08,0.172,5,150000.0
+Laura,50.0,PEA – profil dynamique,666.67,202089.77,True,0.08,0.172,5,150000.0
+Laura,75.0,PEA – profil dynamique,1000.0,303134.66,True,0.08,0.172,5,150000.0
+Laura,100.0,PEA – profil dynamique,1333.33,404179.55,True,0.08,0.172,5,150000.0
+Laura,31.8,SCPI Iroko Zen,424.0,128377.21,False,0.071,0.3,5,
+Laura,25.0,SCPI Iroko Zen,333.33,100925.48,False,0.071,0.3,5,
+Laura,50.0,SCPI Iroko Zen,666.67,201850.96,True,0.071,0.3,5,
+Laura,75.0,SCPI Iroko Zen,1000.0,302776.44,True,0.071,0.3,5,
+Laura,100.0,SCPI Iroko Zen,1333.33,403701.92,True,0.071,0.3,5,
+Laura,31.8,SCPI Sofidynamic,424.0,128778.18,False,0.095,0.3,5,
+Laura,25.0,SCPI Sofidynamic,333.33,101240.7,False,0.095,0.3,5,
+Laura,50.0,SCPI Sofidynamic,666.67,202481.41,True,0.095,0.3,5,
+Laura,75.0,SCPI Sofidynamic,1000.0,303722.11,True,0.095,0.3,5,
+Laura,100.0,SCPI Sofidynamic,1333.33,404962.82,True,0.095,0.3,5,
+Martin,61.02,Livret A,895.0,172190.97,True,0.024,0.0,0,22950.0
+Martin,25.0,Livret A,366.67,70543.79,False,0.024,0.0,0,22950.0
+Martin,50.0,Livret A,733.33,141087.58,True,0.024,0.0,0,22950.0
+Martin,75.0,Livret A,1100.0,211631.37,True,0.024,0.0,0,22950.0
+Martin,100.0,Livret A,1466.67,282175.15,True,0.024,0.0,0,22950.0
+Martin,61.02,LDDS,895.0,172190.97,True,0.024,0.0,0,12000.0
+Martin,25.0,LDDS,366.67,70543.79,False,0.024,0.0,0,12000.0
+Martin,50.0,LDDS,733.33,141087.58,True,0.024,0.0,0,12000.0
+Martin,25.0,LEP,366.67,70609.81,False,0.035,0.0,0,7700.0
+Martin,61.02,PEL (2025),895.0,172095.07,True,0.0175,0.3,4,61200.0
+Martin,25.0,PEL (2025),366.67,70504.5,False,0.0175,0.3,4,61200.0
+Martin,50.0,PEL (2025),733.33,141008.99,True,0.0175,0.3,4,61200.0
+Martin,75.0,PEL (2025),1100.0,211513.49,True,0.0175,0.3,4,61200.0
+Martin,100.0,PEL (2025),1466.67,282017.99,True,0.0175,0.3,4,61200.0
+Martin,61.02,Assurance Vie – euros,895.0,172204.99,True,0.025,0.172,8,150000.0
+Martin,25.0,Assurance Vie – euros,366.67,70549.53,False,0.025,0.172,8,150000.0
+Martin,50.0,Assurance Vie – euros,733.33,141099.06,True,0.025,0.172,8,150000.0
+Martin,75.0,Assurance Vie – euros,1100.0,211648.59,True,0.025,0.172,8,150000.0
+Martin,100.0,Assurance Vie – euros,1466.67,282198.12,True,0.025,0.172,8,150000.0
+Martin,61.02,Assurance Vie – UC Risque faible,895.0,172351.24,True,0.035,0.172,8,200000.0
+Martin,25.0,Assurance Vie – UC Risque faible,366.67,70609.45,False,0.035,0.172,8,200000.0
+Martin,50.0,Assurance Vie – UC Risque faible,733.33,141218.89,True,0.035,0.172,8,200000.0
+Martin,75.0,Assurance Vie – UC Risque faible,1100.0,211828.34,True,0.035,0.172,8,200000.0
+Martin,100.0,Assurance Vie – UC Risque faible,1466.67,282437.78,True,0.035,0.172,8,200000.0
+Martin,61.02,Assurance Vie – UC Risque modéré,895.0,172497.64,True,0.045,0.172,8,200000.0
+Martin,25.0,Assurance Vie – UC Risque modéré,366.67,70669.42,False,0.045,0.172,8,200000.0
+Martin,50.0,Assurance Vie – UC Risque modéré,733.33,141338.85,True,0.045,0.172,8,200000.0
+Martin,75.0,Assurance Vie – UC Risque modéré,1100.0,212008.27,True,0.045,0.172,8,200000.0
+Martin,100.0,Assurance Vie – UC Risque modéré,1466.67,282677.69,True,0.045,0.172,8,200000.0
+Martin,61.02,PEA – profil prudent,895.0,172497.64,True,0.045,0.172,5,150000.0
+Martin,25.0,PEA – profil prudent,366.67,70669.42,False,0.045,0.172,5,150000.0
+Martin,50.0,PEA – profil prudent,733.33,141338.85,True,0.045,0.172,5,150000.0
+Martin,75.0,PEA – profil prudent,1100.0,212008.27,True,0.045,0.172,5,150000.0
+Martin,100.0,PEA – profil prudent,1466.67,282677.69,True,0.045,0.172,5,150000.0
+Martin,61.02,PEA – profil équilibré,895.0,172717.51,True,0.06,0.172,5,150000.0
+Martin,25.0,PEA – profil équilibré,366.67,70759.5,False,0.06,0.172,5,150000.0
+Martin,50.0,PEA – profil équilibré,733.33,141519.0,True,0.06,0.172,5,150000.0
+Martin,75.0,PEA – profil équilibré,1100.0,212278.5,True,0.06,0.172,5,150000.0
+Martin,100.0,PEA – profil équilibré,1466.67,283038.0,True,0.06,0.172,5,150000.0
+Martin,61.02,PEA – profil dynamique,895.0,173011.18,True,0.08,0.172,5,150000.0
+Martin,25.0,PEA – profil dynamique,366.67,70879.81,False,0.08,0.172,5,150000.0
+Martin,50.0,PEA – profil dynamique,733.33,141759.63,True,0.08,0.172,5,150000.0
+Martin,75.0,PEA – profil dynamique,1100.0,212639.44,True,0.08,0.172,5,150000.0
+Martin,100.0,PEA – profil dynamique,1466.67,283519.25,True,0.08,0.172,5,150000.0
+Martin,61.02,SCPI Iroko Zen,895.0,172877.62,True,0.071,0.3,5,
+Martin,25.0,SCPI Iroko Zen,366.67,70825.1,False,0.071,0.3,5,
+Martin,50.0,SCPI Iroko Zen,733.33,141650.19,True,0.071,0.3,5,
+Martin,75.0,SCPI Iroko Zen,1100.0,212475.29,True,0.071,0.3,5,
+Martin,100.0,SCPI Iroko Zen,1466.67,283300.39,True,0.071,0.3,5,
+Martin,61.02,SCPI Sofidynamic,895.0,173230.04,True,0.095,0.3,5,
+Martin,25.0,SCPI Sofidynamic,366.67,70969.48,False,0.095,0.3,5,
+Martin,50.0,SCPI Sofidynamic,733.33,141938.95,True,0.095,0.3,5,
+Martin,75.0,SCPI Sofidynamic,1100.0,212908.43,True,0.095,0.3,5,
+Martin,100.0,SCPI Sofidynamic,1466.67,283877.9,True,0.095,0.3,5,
+Nora,25.44,Livret A,318.0,34385.24,False,0.024,0.0,0,22950.0
+Nora,25.0,Livret A,312.5,33790.53,False,0.024,0.0,0,22950.0
+Nora,50.0,Livret A,625.0,67581.05,False,0.024,0.0,0,22950.0
+Nora,75.0,Livret A,937.5,101371.58,True,0.024,0.0,0,22950.0
+Nora,100.0,Livret A,1250.0,135162.1,True,0.024,0.0,0,22950.0
+Nora,25.44,LDDS,318.0,34385.24,False,0.024,0.0,0,12000.0
+Nora,25.0,LDDS,312.5,33790.53,False,0.024,0.0,0,12000.0
+Nora,50.0,LDDS,625.0,67581.05,False,0.024,0.0,0,12000.0
+Nora,75.0,LDDS,937.5,101371.58,True,0.024,0.0,0,12000.0
+Nora,25.44,LEP,318.0,34404.16,False,0.035,0.0,0,7700.0
+Nora,25.0,LEP,312.5,33809.12,False,0.035,0.0,0,7700.0
+Nora,50.0,LEP,625.0,67618.24,False,0.035,0.0,0,7700.0
+Nora,25.44,PEL (2025),318.0,34373.97,False,0.0175,0.3,4,61200.0
+Nora,25.0,PEL (2025),312.5,33779.46,False,0.0175,0.3,4,61200.0
+Nora,50.0,PEL (2025),625.0,67558.91,False,0.0175,0.3,4,61200.0
+Nora,75.0,PEL (2025),937.5,101338.37,True,0.0175,0.3,4,61200.0
+Nora,100.0,PEL (2025),1250.0,135117.83,True,0.0175,0.3,4,61200.0
+Nora,25.44,Assurance Vie – euros,318.0,34386.88,False,0.025,0.172,8,150000.0
+Nora,25.0,Assurance Vie – euros,312.5,33792.14,False,0.025,0.172,8,150000.0
+Nora,50.0,Assurance Vie – euros,625.0,67584.29,False,0.025,0.172,8,150000.0
+Nora,75.0,Assurance Vie – euros,937.5,101376.43,True,0.025,0.172,8,150000.0
+Nora,100.0,Assurance Vie – euros,1250.0,135168.57,True,0.025,0.172,8,150000.0
+Nora,25.44,Assurance Vie – UC Risque faible,318.0,34404.05,False,0.035,0.172,8,200000.0
+Nora,25.0,Assurance Vie – UC Risque faible,312.5,33809.02,False,0.035,0.172,8,200000.0
+Nora,50.0,Assurance Vie – UC Risque faible,625.0,67618.03,False,0.035,0.172,8,200000.0
+Nora,75.0,Assurance Vie – UC Risque faible,937.5,101427.05,True,0.035,0.172,8,200000.0
+Nora,100.0,Assurance Vie – UC Risque faible,1250.0,135236.06,True,0.035,0.172,8,200000.0
+Nora,25.44,Assurance Vie – UC Risque modéré,318.0,34421.23,False,0.045,0.172,8,200000.0
+Nora,25.0,Assurance Vie – UC Risque modéré,312.5,33825.9,False,0.045,0.172,8,200000.0
+Nora,50.0,Assurance Vie – UC Risque modéré,625.0,67651.8,False,0.045,0.172,8,200000.0
+Nora,75.0,Assurance Vie – UC Risque modéré,937.5,101477.69,True,0.045,0.172,8,200000.0
+Nora,100.0,Assurance Vie – UC Risque modéré,1250.0,135303.59,True,0.045,0.172,8,200000.0
+Nora,25.44,PEA – profil prudent,318.0,34421.23,False,0.045,0.172,5,150000.0
+Nora,25.0,PEA – profil prudent,312.5,33825.9,False,0.045,0.172,5,150000.0
+Nora,50.0,PEA – profil prudent,625.0,67651.8,False,0.045,0.172,5,150000.0
+Nora,75.0,PEA – profil prudent,937.5,101477.69,True,0.045,0.172,5,150000.0
+Nora,100.0,PEA – profil prudent,1250.0,135303.59,True,0.045,0.172,5,150000.0
+Nora,25.44,PEA – profil équilibré,318.0,34447.02,False,0.06,0.172,5,150000.0
+Nora,25.0,PEA – profil équilibré,312.5,33851.24,False,0.06,0.172,5,150000.0
+Nora,50.0,PEA – profil équilibré,625.0,67702.48,False,0.06,0.172,5,150000.0
+Nora,75.0,PEA – profil équilibré,937.5,101553.71,True,0.06,0.172,5,150000.0
+Nora,100.0,PEA – profil équilibré,1250.0,135404.95,True,0.06,0.172,5,150000.0
+Nora,25.44,PEA – profil dynamique,318.0,34481.43,False,0.08,0.172,5,150000.0
+Nora,25.0,PEA – profil dynamique,312.5,33885.06,False,0.08,0.172,5,150000.0
+Nora,50.0,PEA – profil dynamique,625.0,67770.11,False,0.08,0.172,5,150000.0
+Nora,75.0,PEA – profil dynamique,937.5,101655.17,True,0.08,0.172,5,150000.0
+Nora,100.0,PEA – profil dynamique,1250.0,135540.22,True,0.08,0.172,5,150000.0
+Nora,25.44,SCPI Iroko Zen,318.0,34465.79,False,0.071,0.3,5,
+Nora,25.0,SCPI Iroko Zen,312.5,33869.68,False,0.071,0.3,5,
+Nora,50.0,SCPI Iroko Zen,625.0,67739.36,False,0.071,0.3,5,
+Nora,75.0,SCPI Iroko Zen,937.5,101609.04,True,0.071,0.3,5,
+Nora,100.0,SCPI Iroko Zen,1250.0,135478.72,True,0.071,0.3,5,
+Nora,25.44,SCPI Sofidynamic,318.0,34507.06,False,0.095,0.3,5,
+Nora,25.0,SCPI Sofidynamic,312.5,33910.24,False,0.095,0.3,5,
+Nora,50.0,SCPI Sofidynamic,625.0,67820.47,False,0.095,0.3,5,
+Nora,75.0,SCPI Sofidynamic,937.5,101730.71,True,0.095,0.3,5,
+Nora,100.0,SCPI Sofidynamic,1250.0,135640.95,True,0.095,0.3,5,
+Oscar,104.3,Livret A,1043.0,137874.41,True,0.024,0.0,0,22950.0
+Oscar,25.0,Livret A,250.0,33047.56,False,0.024,0.0,0,22950.0
+Oscar,50.0,Livret A,500.0,66095.12,False,0.024,0.0,0,22950.0
+Oscar,75.0,Livret A,750.0,99142.67,False,0.024,0.0,0,22950.0
+Oscar,100.0,Livret A,1000.0,132190.23,True,0.024,0.0,0,22950.0
+Oscar,25.0,LDDS,250.0,33047.56,False,0.024,0.0,0,12000.0
+Oscar,50.0,LDDS,500.0,66095.12,False,0.024,0.0,0,12000.0
+Oscar,75.0,LDDS,750.0,99142.67,False,0.024,0.0,0,12000.0
+Oscar,100.0,LDDS,1000.0,132190.23,True,0.024,0.0,0,12000.0
+Oscar,25.0,LEP,250.0,33069.38,False,0.035,0.0,0,7700.0
+Oscar,50.0,LEP,500.0,66138.76,False,0.035,0.0,0,7700.0
+Oscar,104.3,PEL (2025),1043.0,137820.21,True,0.0175,0.3,4,61200.0
+Oscar,25.0,PEL (2025),250.0,33034.57,False,0.0175,0.3,4,61200.0
+Oscar,50.0,PEL (2025),500.0,66069.13,False,0.0175,0.3,4,61200.0
+Oscar,75.0,PEL (2025),750.0,99103.7,False,0.0175,0.3,4,61200.0
+Oscar,100.0,PEL (2025),1000.0,132138.26,True,0.0175,0.3,4,61200.0
+Oscar,104.3,Assurance Vie – euros,1043.0,137882.33,True,0.025,0.172,8,150000.0
+Oscar,25.0,Assurance Vie – euros,250.0,33049.46,False,0.025,0.172,8,150000.0
+Oscar,50.0,Assurance Vie – euros,500.0,66098.91,False,0.025,0.172,8,150000.0
+Oscar,75.0,Assurance Vie – euros,750.0,99148.37,False,0.025,0.172,8,150000.0
+Oscar,100.0,Assurance Vie – euros,1000.0,132197.82,True,0.025,0.172,8,150000.0
+Oscar,104.3,Assurance Vie – UC Risque faible,1043.0,137964.96,True,0.035,0.172,8,200000.0
+Oscar,25.0,Assurance Vie – UC Risque faible,250.0,33069.26,False,0.035,0.172,8,200000.0
+Oscar,50.0,Assurance Vie – UC Risque faible,500.0,66138.52,False,0.035,0.172,8,200000.0
+Oscar,75.0,Assurance Vie – UC Risque faible,750.0,99207.78,False,0.035,0.172,8,200000.0
+Oscar,100.0,Assurance Vie – UC Risque faible,1000.0,132277.05,True,0.035,0.172,8,200000.0
+Oscar,104.3,Assurance Vie – UC Risque modéré,1043.0,138047.64,True,0.045,0.172,8,200000.0
+Oscar,25.0,Assurance Vie – UC Risque modéré,250.0,33089.08,False,0.045,0.172,8,200000.0
+Oscar,50.0,Assurance Vie – UC Risque modéré,500.0,66178.16,False,0.045,0.172,8,200000.0
+Oscar,75.0,Assurance Vie – UC Risque modéré,750.0,99267.24,False,0.045,0.172,8,200000.0
+Oscar,100.0,Assurance Vie – UC Risque modéré,1000.0,132356.32,True,0.045,0.172,8,200000.0
+Oscar,104.3,PEA – profil prudent,1043.0,138047.64,True,0.045,0.172,5,150000.0
+Oscar,25.0,PEA – profil prudent,250.0,33089.08,False,0.045,0.172,5,150000.0
+Oscar,50.0,PEA – profil prudent,500.0,66178.16,False,0.045,0.172,5,150000.0
+Oscar,75.0,PEA – profil prudent,750.0,99267.24,False,0.045,0.172,5,150000.0
+Oscar,100.0,PEA – profil prudent,1000.0,132356.32,True,0.045,0.172,5,150000.0
+Oscar,104.3,PEA – profil équilibré,1043.0,138171.77,True,0.06,0.172,5,150000.0
+Oscar,25.0,PEA – profil équilibré,250.0,33118.83,False,0.06,0.172,5,150000.0
+Oscar,50.0,PEA – profil équilibré,500.0,66237.67,False,0.06,0.172,5,150000.0
+Oscar,75.0,PEA – profil équilibré,750.0,99356.5,False,0.06,0.172,5,150000.0
+Oscar,100.0,PEA – profil équilibré,1000.0,132475.33,True,0.06,0.172,5,150000.0
+Oscar,104.3,PEA – profil dynamique,1043.0,138337.47,True,0.08,0.172,5,150000.0
+Oscar,25.0,PEA – profil dynamique,250.0,33158.55,False,0.08,0.172,5,150000.0
+Oscar,50.0,PEA – profil dynamique,500.0,66317.1,False,0.08,0.172,5,150000.0
+Oscar,75.0,PEA – profil dynamique,750.0,99475.65,False,0.08,0.172,5,150000.0
+Oscar,100.0,PEA – profil dynamique,1000.0,132634.2,True,0.08,0.172,5,150000.0
+Oscar,104.3,SCPI Iroko Zen,1043.0,138262.13,True,0.071,0.3,5,
+Oscar,25.0,SCPI Iroko Zen,250.0,33140.49,False,0.071,0.3,5,
+Oscar,50.0,SCPI Iroko Zen,500.0,66280.98,False,0.071,0.3,5,
+Oscar,75.0,SCPI Iroko Zen,750.0,99421.47,False,0.071,0.3,5,
+Oscar,100.0,SCPI Iroko Zen,1000.0,132561.96,True,0.071,0.3,5,
+Oscar,104.3,SCPI Sofidynamic,1043.0,138460.88,True,0.095,0.3,5,
+Oscar,25.0,SCPI Sofidynamic,250.0,33188.13,False,0.095,0.3,5,
+Oscar,50.0,SCPI Sofidynamic,500.0,66376.26,False,0.095,0.3,5,
+Oscar,75.0,SCPI Sofidynamic,750.0,99564.39,False,0.095,0.3,5,
+Oscar,100.0,SCPI Sofidynamic,1000.0,132752.52,True,0.095,0.3,5,
+Pauline,58.29,Livret A,748.0,80881.0,False,0.024,0.0,0,22950.0
+Pauline,25.0,Livret A,320.83,34691.61,False,0.024,0.0,0,22950.0
+Pauline,50.0,Livret A,641.67,69383.21,False,0.024,0.0,0,22950.0
+Pauline,75.0,Livret A,962.5,104074.82,True,0.024,0.0,0,22950.0
+Pauline,100.0,Livret A,1283.33,138766.43,True,0.024,0.0,0,22950.0
+Pauline,58.29,LDDS,748.0,80881.0,False,0.024,0.0,0,12000.0
+Pauline,25.0,LDDS,320.83,34691.61,False,0.024,0.0,0,12000.0
+Pauline,50.0,LDDS,641.67,69383.21,False,0.024,0.0,0,12000.0
+Pauline,75.0,LDDS,962.5,104074.82,True,0.024,0.0,0,12000.0
+Pauline,25.0,LEP,320.83,34710.69,False,0.035,0.0,0,7700.0
+Pauline,58.29,PEL (2025),748.0,80854.51,False,0.0175,0.3,4,61200.0
+Pauline,25.0,PEL (2025),320.83,34680.24,False,0.0175,0.3,4,61200.0
+Pauline,50.0,PEL (2025),641.67,69360.48,False,0.0175,0.3,4,61200.0
+Pauline,75.0,PEL (2025),962.5,104040.73,True,0.0175,0.3,4,61200.0
+Pauline,100.0,PEL (2025),1283.33,138720.97,True,0.0175,0.3,4,61200.0
+Pauline,58.29,Assurance Vie – euros,748.0,80884.87,False,0.025,0.172,8,150000.0
+Pauline,25.0,Assurance Vie – euros,320.83,34693.27,False,0.025,0.172,8,150000.0
+Pauline,50.0,Assurance Vie – euros,641.67,69386.53,False,0.025,0.172,8,150000.0
+Pauline,75.0,Assurance Vie – euros,962.5,104079.8,True,0.025,0.172,8,150000.0
+Pauline,100.0,Assurance Vie – euros,1283.33,138773.07,True,0.025,0.172,8,150000.0
+Pauline,58.29,Assurance Vie – UC Risque faible,748.0,80925.26,False,0.035,0.172,8,200000.0
+Pauline,25.0,Assurance Vie – UC Risque faible,320.83,34710.59,False,0.035,0.172,8,200000.0
+Pauline,50.0,Assurance Vie – UC Risque faible,641.67,69421.18,False,0.035,0.172,8,200000.0
+Pauline,75.0,Assurance Vie – UC Risque faible,962.5,104131.77,True,0.035,0.172,8,200000.0
+Pauline,100.0,Assurance Vie – UC Risque faible,1283.33,138842.36,True,0.035,0.172,8,200000.0
+Pauline,58.29,Assurance Vie – UC Risque modéré,748.0,80965.67,False,0.045,0.172,8,200000.0
+Pauline,25.0,Assurance Vie – UC Risque modéré,320.83,34727.92,False,0.045,0.172,8,200000.0
+Pauline,50.0,Assurance Vie – UC Risque modéré,641.67,69455.84,False,0.045,0.172,8,200000.0
+Pauline,75.0,Assurance Vie – UC Risque modéré,962.5,104183.77,True,0.045,0.172,8,200000.0
+Pauline,100.0,Assurance Vie – UC Risque modéré,1283.33,138911.69,True,0.045,0.172,8,200000.0
+Pauline,58.29,PEA – profil prudent,748.0,80965.67,False,0.045,0.172,5,150000.0
+Pauline,25.0,PEA – profil prudent,320.83,34727.92,False,0.045,0.172,5,150000.0
+Pauline,50.0,PEA – profil prudent,641.67,69455.84,False,0.045,0.172,5,150000.0
+Pauline,75.0,PEA – profil prudent,962.5,104183.77,True,0.045,0.172,5,150000.0
+Pauline,100.0,PEA – profil prudent,1283.33,138911.69,True,0.045,0.172,5,150000.0
+Pauline,58.29,PEA – profil équilibré,748.0,81026.32,False,0.06,0.172,5,150000.0
+Pauline,25.0,PEA – profil équilibré,320.83,34753.94,False,0.06,0.172,5,150000.0
+Pauline,50.0,PEA – profil équilibré,641.67,69507.87,False,0.06,0.172,5,150000.0
+Pauline,75.0,PEA – profil équilibré,962.5,104261.81,True,0.06,0.172,5,150000.0
+Pauline,100.0,PEA – profil équilibré,1283.33,139015.75,True,0.06,0.172,5,150000.0
+Pauline,58.29,PEA – profil dynamique,748.0,81107.27,False,0.08,0.172,5,150000.0
+Pauline,25.0,PEA – profil dynamique,320.83,34788.66,False,0.08,0.172,5,150000.0
+Pauline,50.0,PEA – profil dynamique,641.67,69577.31,False,0.08,0.172,5,150000.0
+Pauline,75.0,PEA – profil dynamique,962.5,104365.97,True,0.08,0.172,5,150000.0
+Pauline,100.0,PEA – profil dynamique,1283.33,139154.63,True,0.08,0.172,5,150000.0
+Pauline,58.29,SCPI Iroko Zen,748.0,81070.46,False,0.071,0.3,5,
+Pauline,25.0,SCPI Iroko Zen,320.83,34772.87,False,0.071,0.3,5,
+Pauline,50.0,SCPI Iroko Zen,641.67,69545.74,False,0.071,0.3,5,
+Pauline,75.0,SCPI Iroko Zen,962.5,104318.61,True,0.071,0.3,5,
+Pauline,100.0,SCPI Iroko Zen,1283.33,139091.48,True,0.071,0.3,5,
+Pauline,58.29,SCPI Sofidynamic,748.0,81167.54,False,0.095,0.3,5,
+Pauline,25.0,SCPI Sofidynamic,320.83,34814.51,False,0.095,0.3,5,
+Pauline,50.0,SCPI Sofidynamic,641.67,69629.02,False,0.095,0.3,5,
+Pauline,75.0,SCPI Sofidynamic,962.5,104443.53,True,0.095,0.3,5,
+Pauline,100.0,SCPI Sofidynamic,1283.33,139258.04,True,0.095,0.3,5,
+Quentin,81.7,Livret A,1280.0,123012.78,False,0.024,0.0,0,22950.0
+Quentin,25.0,Livret A,391.67,37640.63,False,0.024,0.0,0,22950.0
+Quentin,50.0,Livret A,783.33,75281.26,False,0.024,0.0,0,22950.0
+Quentin,75.0,Livret A,1175.0,112921.89,False,0.024,0.0,0,22950.0
+Quentin,100.0,Livret A,1566.67,150562.52,False,0.024,0.0,0,22950.0
+Quentin,25.0,LDDS,391.67,37640.63,False,0.024,0.0,0,12000.0
+Quentin,50.0,LDDS,783.33,75281.26,False,0.024,0.0,0,12000.0
+Quentin,25.0,LEP,391.67,37659.27,False,0.035,0.0,0,7700.0
+Quentin,81.7,PEL (2025),1280.0,122976.52,False,0.0175,0.3,4,61200.0
+Quentin,25.0,PEL (2025),391.67,37629.53,False,0.0175,0.3,4,61200.0
+Quentin,50.0,PEL (2025),783.33,75259.07,False,0.0175,0.3,4,61200.0
+Quentin,75.0,PEL (2025),1175.0,112888.6,False,0.0175,0.3,4,61200.0
+Quentin,100.0,PEL (2025),1566.67,150518.13,False,0.0175,0.3,4,61200.0
+Quentin,81.7,Assurance Vie – euros,1280.0,123018.08,False,0.025,0.172,8,150000.0
+Quentin,25.0,Assurance Vie – euros,391.67,37642.25,False,0.025,0.172,8,150000.0
+Quentin,50.0,Assurance Vie – euros,783.33,75284.5,False,0.025,0.172,8,150000.0
+Quentin,75.0,Assurance Vie – euros,1175.0,112926.76,False,0.025,0.172,8,150000.0
+Quentin,100.0,Assurance Vie – euros,1566.67,150569.01,False,0.025,0.172,8,150000.0
+Quentin,81.7,Assurance Vie – UC Risque faible,1280.0,123073.36,False,0.035,0.172,8,200000.0
+Quentin,25.0,Assurance Vie – UC Risque faible,391.67,37659.17,False,0.035,0.172,8,200000.0
+Quentin,50.0,Assurance Vie – UC Risque faible,783.33,75318.33,False,0.035,0.172,8,200000.0
+Quentin,75.0,Assurance Vie – UC Risque faible,1175.0,112977.5,False,0.035,0.172,8,200000.0
+Quentin,100.0,Assurance Vie – UC Risque faible,1566.67,150636.67,False,0.035,0.172,8,200000.0
+Quentin,81.7,Assurance Vie – UC Risque modéré,1280.0,123128.67,False,0.045,0.172,8,200000.0
+Quentin,25.0,Assurance Vie – UC Risque modéré,391.67,37676.09,False,0.045,0.172,8,200000.0
+Quentin,50.0,Assurance Vie – UC Risque modéré,783.33,75352.18,False,0.045,0.172,8,200000.0
+Quentin,75.0,Assurance Vie – UC Risque modéré,1175.0,113028.27,False,0.045,0.172,8,200000.0
+Quentin,100.0,Assurance Vie – UC Risque modéré,1566.67,150704.36,False,0.045,0.172,8,200000.0
+Quentin,81.7,PEA – profil prudent,1280.0,123128.67,False,0.045,0.172,5,150000.0
+Quentin,25.0,PEA – profil prudent,391.67,37676.09,False,0.045,0.172,5,150000.0
+Quentin,50.0,PEA – profil prudent,783.33,75352.18,False,0.045,0.172,5,150000.0
+Quentin,75.0,PEA – profil prudent,1175.0,113028.27,False,0.045,0.172,5,150000.0
+Quentin,100.0,PEA – profil prudent,1566.67,150704.36,False,0.045,0.172,5,150000.0
+Quentin,81.7,PEA – profil équilibré,1280.0,123211.67,False,0.06,0.172,5,150000.0
+Quentin,25.0,PEA – profil équilibré,391.67,37701.49,False,0.06,0.172,5,150000.0
+Quentin,50.0,PEA – profil équilibré,783.33,75402.97,False,0.06,0.172,5,150000.0
+Quentin,75.0,PEA – profil équilibré,1175.0,113104.46,False,0.06,0.172,5,150000.0
+Quentin,100.0,PEA – profil équilibré,1566.67,150805.95,False,0.06,0.172,5,150000.0
+Quentin,81.7,PEA – profil dynamique,1280.0,123322.43,False,0.08,0.172,5,150000.0
+Quentin,25.0,PEA – profil dynamique,391.67,37735.38,False,0.08,0.172,5,150000.0
+Quentin,50.0,PEA – profil dynamique,783.33,75470.76,False,0.08,0.172,5,150000.0
+Quentin,75.0,PEA – profil dynamique,1175.0,113206.14,False,0.08,0.172,5,150000.0
+Quentin,100.0,PEA – profil dynamique,1566.67,150941.52,False,0.08,0.172,5,150000.0
+Quentin,81.7,SCPI Iroko Zen,1280.0,123272.07,False,0.071,0.3,5,
+Quentin,25.0,SCPI Iroko Zen,391.67,37719.97,False,0.071,0.3,5,
+Quentin,50.0,SCPI Iroko Zen,783.33,75439.94,False,0.071,0.3,5,
+Quentin,75.0,SCPI Iroko Zen,1175.0,113159.91,False,0.071,0.3,5,
+Quentin,100.0,SCPI Iroko Zen,1566.67,150879.88,False,0.071,0.3,5,
+Quentin,81.7,SCPI Sofidynamic,1280.0,123404.9,False,0.095,0.3,5,
+Quentin,25.0,SCPI Sofidynamic,391.67,37760.61,False,0.095,0.3,5,
+Quentin,50.0,SCPI Sofidynamic,783.33,75521.23,False,0.095,0.3,5,
+Quentin,75.0,SCPI Sofidynamic,1175.0,113281.84,False,0.095,0.3,5,
+Quentin,100.0,SCPI Sofidynamic,1566.67,151042.45,False,0.095,0.3,5,
+Rania,58.95,Livret A,727.0,148628.76,True,0.024,0.0,0,22950.0
+Rania,25.0,Livret A,308.33,63036.04,False,0.024,0.0,0,22950.0
+Rania,50.0,Livret A,616.67,126072.08,True,0.024,0.0,0,22950.0
+Rania,75.0,Livret A,925.0,189108.11,True,0.024,0.0,0,22950.0
+Rania,100.0,Livret A,1233.33,252144.15,True,0.024,0.0,0,22950.0
+Rania,58.95,LDDS,727.0,148628.76,True,0.024,0.0,0,12000.0
+Rania,25.0,LDDS,308.33,63036.04,False,0.024,0.0,0,12000.0
+Rania,50.0,LDDS,616.67,126072.08,True,0.024,0.0,0,12000.0
+Rania,75.0,LDDS,925.0,189108.11,True,0.024,0.0,0,12000.0
+Rania,25.0,LEP,308.33,63098.51,False,0.035,0.0,0,7700.0
+Rania,50.0,LEP,616.67,126197.01,True,0.035,0.0,0,7700.0
+Rania,58.95,PEL (2025),727.0,148541.1,True,0.0175,0.3,4,61200.0
+Rania,25.0,PEL (2025),308.33,62998.86,False,0.0175,0.3,4,61200.0
+Rania,50.0,PEL (2025),616.67,125997.73,True,0.0175,0.3,4,61200.0
+Rania,75.0,PEL (2025),925.0,188996.59,True,0.0175,0.3,4,61200.0
+Rania,100.0,PEL (2025),1233.33,251995.45,True,0.0175,0.3,4,61200.0
+Rania,58.95,Assurance Vie – euros,727.0,148641.56,True,0.025,0.172,8,150000.0
+Rania,25.0,Assurance Vie – euros,308.33,63041.47,False,0.025,0.172,8,150000.0
+Rania,50.0,Assurance Vie – euros,616.67,126082.94,True,0.025,0.172,8,150000.0
+Rania,75.0,Assurance Vie – euros,925.0,189124.41,True,0.025,0.172,8,150000.0
+Rania,100.0,Assurance Vie – euros,1233.33,252165.88,True,0.025,0.172,8,150000.0
+Rania,58.95,Assurance Vie – UC Risque faible,727.0,148775.24,True,0.035,0.172,8,200000.0
+Rania,25.0,Assurance Vie – UC Risque faible,308.33,63098.16,False,0.035,0.172,8,200000.0
+Rania,50.0,Assurance Vie – UC Risque faible,616.67,126196.33,True,0.035,0.172,8,200000.0
+Rania,75.0,Assurance Vie – UC Risque faible,925.0,189294.49,True,0.035,0.172,8,200000.0
+Rania,100.0,Assurance Vie – UC Risque faible,1233.33,252392.66,True,0.035,0.172,8,200000.0
+Rania,58.95,Assurance Vie – UC Risque modéré,727.0,148909.06,True,0.045,0.172,8,200000.0
+Rania,25.0,Assurance Vie – UC Risque modéré,308.33,63154.92,False,0.045,0.172,8,200000.0
+Rania,50.0,Assurance Vie – UC Risque modéré,616.67,126309.84,True,0.045,0.172,8,200000.0
+Rania,75.0,Assurance Vie – UC Risque modéré,925.0,189464.75,True,0.045,0.172,8,200000.0
+Rania,100.0,Assurance Vie – UC Risque modéré,1233.33,252619.67,True,0.045,0.172,8,200000.0
+Rania,58.95,PEA – profil prudent,727.0,148909.06,True,0.045,0.172,5,150000.0
+Rania,25.0,PEA – profil prudent,308.33,63154.92,False,0.045,0.172,5,150000.0
+Rania,50.0,PEA – profil prudent,616.67,126309.84,True,0.045,0.172,5,150000.0
+Rania,75.0,PEA – profil prudent,925.0,189464.75,True,0.045,0.172,5,150000.0
+Rania,100.0,PEA – profil prudent,1233.33,252619.67,True,0.045,0.172,5,150000.0
+Rania,58.95,PEA – profil équilibré,727.0,149110.05,True,0.06,0.172,5,150000.0
+Rania,25.0,PEA – profil équilibré,308.33,63240.16,False,0.06,0.172,5,150000.0
+Rania,50.0,PEA – profil équilibré,616.67,126480.33,True,0.06,0.172,5,150000.0
+Rania,75.0,PEA – profil équilibré,925.0,189720.49,True,0.06,0.172,5,150000.0
+Rania,100.0,PEA – profil équilibré,1233.33,252960.65,True,0.06,0.172,5,150000.0
+Rania,58.95,PEA – profil dynamique,727.0,149378.54,True,0.08,0.172,5,150000.0
+Rania,25.0,PEA – profil dynamique,308.33,63354.04,False,0.08,0.172,5,150000.0
+Rania,50.0,PEA – profil dynamique,616.67,126708.07,True,0.08,0.172,5,150000.0
+Rania,75.0,PEA – profil dynamique,925.0,190062.11,True,0.08,0.172,5,150000.0
+Rania,100.0,PEA – profil dynamique,1233.33,253416.14,True,0.08,0.172,5,150000.0
+Rania,58.95,SCPI Iroko Zen,727.0,149256.43,True,0.071,0.3,5,
+Rania,25.0,SCPI Iroko Zen,308.33,63302.25,False,0.071,0.3,5,
+Rania,50.0,SCPI Iroko Zen,616.67,126604.49,True,0.071,0.3,5,
+Rania,75.0,SCPI Iroko Zen,925.0,189906.74,True,0.071,0.3,5,
+Rania,100.0,SCPI Iroko Zen,1233.33,253208.99,True,0.071,0.3,5,
+Rania,58.95,SCPI Sofidynamic,727.0,149578.66,True,0.095,0.3,5,
+Rania,25.0,SCPI Sofidynamic,308.33,63438.91,False,0.095,0.3,5,
+Rania,50.0,SCPI Sofidynamic,616.67,126877.82,True,0.095,0.3,5,
+Rania,75.0,SCPI Sofidynamic,925.0,190316.72,True,0.095,0.3,5,
+Rania,100.0,SCPI Sofidynamic,1233.33,253755.63,True,0.095,0.3,5,
+Samuel,60.26,Livret A,693.0,158383.76,True,0.024,0.0,0,22950.0
+Samuel,25.0,Livret A,287.5,65707.55,False,0.024,0.0,0,22950.0
+Samuel,50.0,Livret A,575.0,131415.09,True,0.024,0.0,0,22950.0
+Samuel,75.0,Livret A,862.5,197122.64,True,0.024,0.0,0,22950.0
+Samuel,100.0,Livret A,1150.0,262830.19,True,0.024,0.0,0,22950.0
+Samuel,60.26,LDDS,693.0,158383.76,True,0.024,0.0,0,12000.0
+Samuel,25.0,LDDS,287.5,65707.55,False,0.024,0.0,0,12000.0
+Samuel,50.0,LDDS,575.0,131415.09,True,0.024,0.0,0,12000.0
+Samuel,75.0,LDDS,862.5,197122.64,True,0.024,0.0,0,12000.0
+Samuel,25.0,LEP,287.5,65779.91,False,0.035,0.0,0,7700.0
+Samuel,50.0,LEP,575.0,131559.82,True,0.035,0.0,0,7700.0
+Samuel,60.26,PEL (2025),693.0,158279.97,True,0.0175,0.3,4,61200.0
+Samuel,25.0,PEL (2025),287.5,65664.49,False,0.0175,0.3,4,61200.0
+Samuel,50.0,PEL (2025),575.0,131328.98,True,0.0175,0.3,4,61200.0
+Samuel,75.0,PEL (2025),862.5,196993.47,True,0.0175,0.3,4,61200.0
+Samuel,100.0,PEL (2025),1150.0,262657.95,True,0.0175,0.3,4,61200.0
+Samuel,60.26,Assurance Vie – euros,693.0,158398.92,True,0.025,0.172,8,150000.0
+Samuel,25.0,Assurance Vie – euros,287.5,65713.84,False,0.025,0.172,8,150000.0
+Samuel,50.0,Assurance Vie – euros,575.0,131427.68,True,0.025,0.172,8,150000.0
+Samuel,75.0,Assurance Vie – euros,862.5,197141.52,True,0.025,0.172,8,150000.0
+Samuel,100.0,Assurance Vie – euros,1150.0,262855.36,True,0.025,0.172,8,150000.0
+Samuel,60.26,Assurance Vie – UC Risque faible,693.0,158557.22,True,0.035,0.172,8,200000.0
+Samuel,25.0,Assurance Vie – UC Risque faible,287.5,65779.51,False,0.035,0.172,8,200000.0
+Samuel,50.0,Assurance Vie – UC Risque faible,575.0,131559.02,True,0.035,0.172,8,200000.0
+Samuel,75.0,Assurance Vie – UC Risque faible,862.5,197338.54,True,0.035,0.172,8,200000.0
+Samuel,100.0,Assurance Vie – UC Risque faible,1150.0,263118.05,True,0.035,0.172,8,200000.0
+Samuel,60.26,Assurance Vie – UC Risque modéré,693.0,158715.72,True,0.045,0.172,8,200000.0
+Samuel,25.0,Assurance Vie – UC Risque modéré,287.5,65845.26,False,0.045,0.172,8,200000.0
+Samuel,50.0,Assurance Vie – UC Risque modéré,575.0,131690.53,True,0.045,0.172,8,200000.0
+Samuel,75.0,Assurance Vie – UC Risque modéré,862.5,197535.79,True,0.045,0.172,8,200000.0
+Samuel,100.0,Assurance Vie – UC Risque modéré,1150.0,263381.06,True,0.045,0.172,8,200000.0
+Samuel,60.26,PEA – profil prudent,693.0,158715.72,True,0.045,0.172,5,150000.0
+Samuel,25.0,PEA – profil prudent,287.5,65845.26,False,0.045,0.172,5,150000.0
+Samuel,50.0,PEA – profil prudent,575.0,131690.53,True,0.045,0.172,5,150000.0
+Samuel,75.0,PEA – profil prudent,862.5,197535.79,True,0.045,0.172,5,150000.0
+Samuel,100.0,PEA – profil prudent,1150.0,263381.06,True,0.045,0.172,5,150000.0
+Samuel,60.26,PEA – profil équilibré,693.0,158953.81,True,0.06,0.172,5,150000.0
+Samuel,25.0,PEA – profil équilibré,287.5,65944.04,False,0.06,0.172,5,150000.0
+Samuel,50.0,PEA – profil équilibré,575.0,131888.08,True,0.06,0.172,5,150000.0
+Samuel,75.0,PEA – profil équilibré,862.5,197832.12,True,0.06,0.172,5,150000.0
+Samuel,100.0,PEA – profil équilibré,1150.0,263776.16,True,0.06,0.172,5,150000.0
+Samuel,60.26,PEA – profil dynamique,693.0,159271.94,True,0.08,0.172,5,150000.0
+Samuel,25.0,PEA – profil dynamique,287.5,66076.02,False,0.08,0.172,5,150000.0
+Samuel,50.0,PEA – profil dynamique,575.0,132152.04,True,0.08,0.172,5,150000.0
+Samuel,75.0,PEA – profil dynamique,862.5,198228.06,True,0.08,0.172,5,150000.0
+Samuel,100.0,PEA – profil dynamique,1150.0,264304.08,True,0.08,0.172,5,150000.0
+Samuel,60.26,SCPI Iroko Zen,693.0,159127.24,True,0.071,0.3,5,
+Samuel,25.0,SCPI Iroko Zen,287.5,66015.99,False,0.071,0.3,5,
+Samuel,50.0,SCPI Iroko Zen,575.0,132031.98,True,0.071,0.3,5,
+Samuel,75.0,SCPI Iroko Zen,862.5,198047.97,True,0.071,0.3,5,
+Samuel,100.0,SCPI Iroko Zen,1150.0,264063.97,True,0.071,0.3,5,
+Samuel,60.26,SCPI Sofidynamic,693.0,159509.1,True,0.095,0.3,5,
+Samuel,25.0,SCPI Sofidynamic,287.5,66174.41,False,0.095,0.3,5,
+Samuel,50.0,SCPI Sofidynamic,575.0,132348.82,True,0.095,0.3,5,
+Samuel,75.0,SCPI Sofidynamic,862.5,198523.23,True,0.095,0.3,5,
+Samuel,100.0,SCPI Sofidynamic,1150.0,264697.64,True,0.095,0.3,5,
+Tina,43.71,Livret A,408.0,98167.13,True,0.024,0.0,0,22950.0
+Tina,25.0,Livret A,233.33,56141.33,True,0.024,0.0,0,22950.0
+Tina,50.0,Livret A,466.67,112282.67,True,0.024,0.0,0,22950.0
+Tina,75.0,Livret A,700.0,168424.0,True,0.024,0.0,0,22950.0
+Tina,100.0,Livret A,933.33,224565.34,True,0.024,0.0,0,22950.0
+Tina,43.71,LDDS,408.0,98167.13,True,0.024,0.0,0,12000.0
+Tina,25.0,LDDS,233.33,56141.33,True,0.024,0.0,0,12000.0
+Tina,50.0,LDDS,466.67,112282.67,True,0.024,0.0,0,12000.0
+Tina,75.0,LDDS,700.0,168424.0,True,0.024,0.0,0,12000.0
+Tina,100.0,LDDS,933.33,224565.34,True,0.024,0.0,0,12000.0
+Tina,43.71,LEP,408.0,98280.65,True,0.035,0.0,0,7700.0
+Tina,25.0,LEP,233.33,56206.26,True,0.035,0.0,0,7700.0
+Tina,50.0,LEP,466.67,112412.51,True,0.035,0.0,0,7700.0
+Tina,43.71,PEL (2025),408.0,98099.59,True,0.0175,0.3,4,61200.0
+Tina,25.0,PEL (2025),233.33,56102.71,True,0.0175,0.3,4,61200.0
+Tina,50.0,PEL (2025),466.67,112205.41,True,0.0175,0.3,4,61200.0
+Tina,75.0,PEL (2025),700.0,168308.12,True,0.0175,0.3,4,61200.0
+Tina,100.0,PEL (2025),933.33,224410.82,True,0.0175,0.3,4,61200.0
+Tina,43.71,Assurance Vie – euros,408.0,98177.0,True,0.025,0.172,8,150000.0
+Tina,25.0,Assurance Vie – euros,233.33,56146.98,True,0.025,0.172,8,150000.0
+Tina,50.0,Assurance Vie – euros,466.67,112293.96,True,0.025,0.172,8,150000.0
+Tina,75.0,Assurance Vie – euros,700.0,168440.94,True,0.025,0.172,8,150000.0
+Tina,100.0,Assurance Vie – euros,933.33,224587.92,True,0.025,0.172,8,150000.0
+Tina,43.71,Assurance Vie – UC Risque faible,408.0,98280.03,True,0.035,0.172,8,200000.0
+Tina,25.0,Assurance Vie – UC Risque faible,233.33,56205.9,True,0.035,0.172,8,200000.0
+Tina,50.0,Assurance Vie – UC Risque faible,466.67,112411.8,True,0.035,0.172,8,200000.0
+Tina,75.0,Assurance Vie – UC Risque faible,700.0,168617.71,True,0.035,0.172,8,200000.0
+Tina,100.0,Assurance Vie – UC Risque faible,933.33,224823.61,True,0.035,0.172,8,200000.0
+Tina,43.71,Assurance Vie – UC Risque modéré,408.0,98383.2,True,0.045,0.172,8,200000.0
+Tina,25.0,Assurance Vie – UC Risque modéré,233.33,56264.9,True,0.045,0.172,8,200000.0
+Tina,50.0,Assurance Vie – UC Risque modéré,466.67,112529.8,True,0.045,0.172,8,200000.0
+Tina,75.0,Assurance Vie – UC Risque modéré,700.0,168794.7,True,0.045,0.172,8,200000.0
+Tina,100.0,Assurance Vie – UC Risque modéré,933.33,225059.6,True,0.045,0.172,8,200000.0
+Tina,43.71,PEA – profil prudent,408.0,98383.2,True,0.045,0.172,5,150000.0
+Tina,25.0,PEA – profil prudent,233.33,56264.9,True,0.045,0.172,5,150000.0
+Tina,50.0,PEA – profil prudent,466.67,112529.8,True,0.045,0.172,5,150000.0
+Tina,75.0,PEA – profil prudent,700.0,168794.7,True,0.045,0.172,5,150000.0
+Tina,100.0,PEA – profil prudent,933.33,225059.6,True,0.045,0.172,5,150000.0
+Tina,43.71,PEA – profil équilibré,408.0,98538.18,True,0.06,0.172,5,150000.0
+Tina,25.0,PEA – profil équilibré,233.33,56353.54,True,0.06,0.172,5,150000.0
+Tina,50.0,PEA – profil équilibré,466.67,112707.07,True,0.06,0.172,5,150000.0
+Tina,75.0,PEA – profil équilibré,700.0,169060.61,True,0.06,0.172,5,150000.0
+Tina,100.0,PEA – profil équilibré,933.33,225414.14,True,0.06,0.172,5,150000.0
+Tina,43.71,PEA – profil dynamique,408.0,98745.29,True,0.08,0.172,5,150000.0
+Tina,25.0,PEA – profil dynamique,233.33,56471.98,True,0.08,0.172,5,150000.0
+Tina,50.0,PEA – profil dynamique,466.67,112943.96,True,0.08,0.172,5,150000.0
+Tina,75.0,PEA – profil dynamique,700.0,169415.94,True,0.08,0.172,5,150000.0
+Tina,100.0,PEA – profil dynamique,933.33,225887.92,True,0.08,0.172,5,150000.0
+Tina,43.71,SCPI Iroko Zen,408.0,98651.09,True,0.071,0.3,5,
+Tina,25.0,SCPI Iroko Zen,233.33,56418.11,True,0.071,0.3,5,
+Tina,50.0,SCPI Iroko Zen,466.67,112836.21,True,0.071,0.3,5,
+Tina,75.0,SCPI Iroko Zen,700.0,169254.32,True,0.071,0.3,5,
+Tina,100.0,SCPI Iroko Zen,933.33,225672.42,True,0.071,0.3,5,
+Tina,43.71,SCPI Sofidynamic,408.0,98899.71,True,0.095,0.3,5,
+Tina,25.0,SCPI Sofidynamic,233.33,56560.29,True,0.095,0.3,5,
+Tina,50.0,SCPI Sofidynamic,466.67,113120.58,True,0.095,0.3,5,
+Tina,75.0,SCPI Sofidynamic,700.0,169680.87,True,0.095,0.3,5,
+Tina,100.0,SCPI Sofidynamic,933.33,226241.16,True,0.095,0.3,5,
+Ugo,32.26,Livret A,328.0,98707.6,False,0.024,0.0,0,22950.0
+Ugo,25.0,Livret A,254.17,76488.36,False,0.024,0.0,0,22950.0
+Ugo,50.0,Livret A,508.33,152976.71,True,0.024,0.0,0,22950.0
+Ugo,75.0,Livret A,762.5,229465.07,True,0.024,0.0,0,22950.0
+Ugo,100.0,Livret A,1016.67,305953.43,True,0.024,0.0,0,22950.0
+Ugo,32.26,LDDS,328.0,98707.6,False,0.024,0.0,0,12000.0
+Ugo,25.0,LDDS,254.17,76488.36,False,0.024,0.0,0,12000.0
+Ugo,50.0,LDDS,508.33,152976.71,True,0.024,0.0,0,12000.0
+Ugo,75.0,LDDS,762.5,229465.07,True,0.024,0.0,0,12000.0
+Ugo,32.26,LEP,328.0,98848.98,False,0.035,0.0,0,7700.0
+Ugo,25.0,LEP,254.17,76597.91,False,0.035,0.0,0,7700.0
+Ugo,50.0,LEP,508.33,153195.82,True,0.035,0.0,0,7700.0
+Ugo,32.26,PEL (2025),328.0,98623.5,False,0.0175,0.3,4,61200.0
+Ugo,25.0,PEL (2025),254.17,76423.19,False,0.0175,0.3,4,61200.0
+Ugo,50.0,PEL (2025),508.33,152846.38,True,0.0175,0.3,4,61200.0
+Ugo,75.0,PEL (2025),762.5,229269.57,True,0.0175,0.3,4,61200.0
+Ugo,100.0,PEL (2025),1016.67,305692.76,True,0.0175,0.3,4,61200.0
+Ugo,32.26,Assurance Vie – euros,328.0,98719.89,False,0.025,0.172,8,150000.0
+Ugo,25.0,Assurance Vie – euros,254.17,76497.88,False,0.025,0.172,8,150000.0
+Ugo,50.0,Assurance Vie – euros,508.33,152995.76,True,0.025,0.172,8,150000.0
+Ugo,75.0,Assurance Vie – euros,762.5,229493.65,True,0.025,0.172,8,150000.0
+Ugo,100.0,Assurance Vie – euros,1016.67,305991.53,True,0.025,0.172,8,150000.0
+Ugo,32.26,Assurance Vie – UC Risque faible,328.0,98848.2,False,0.035,0.172,8,200000.0
+Ugo,25.0,Assurance Vie – UC Risque faible,254.17,76597.31,False,0.035,0.172,8,200000.0
+Ugo,50.0,Assurance Vie – UC Risque faible,508.33,153194.62,True,0.035,0.172,8,200000.0
+Ugo,75.0,Assurance Vie – UC Risque faible,762.5,229791.94,True,0.035,0.172,8,200000.0
+Ugo,100.0,Assurance Vie – UC Risque faible,1016.67,306389.25,True,0.035,0.172,8,200000.0
+Ugo,32.26,Assurance Vie – UC Risque modéré,328.0,98976.72,False,0.045,0.172,8,200000.0
+Ugo,25.0,Assurance Vie – UC Risque modéré,254.17,76696.9,False,0.045,0.172,8,200000.0
+Ugo,50.0,Assurance Vie – UC Risque modéré,508.33,153393.8,True,0.045,0.172,8,200000.0
+Ugo,75.0,Assurance Vie – UC Risque modéré,762.5,230090.71,True,0.045,0.172,8,200000.0
+Ugo,100.0,Assurance Vie – UC Risque modéré,1016.67,306787.61,True,0.045,0.172,8,200000.0
+Ugo,32.26,PEA – profil prudent,328.0,98976.72,False,0.045,0.172,5,150000.0
+Ugo,25.0,PEA – profil prudent,254.17,76696.9,False,0.045,0.172,5,150000.0
+Ugo,50.0,PEA – profil prudent,508.33,153393.8,True,0.045,0.172,5,150000.0
+Ugo,75.0,PEA – profil prudent,762.5,230090.71,True,0.045,0.172,5,150000.0
+Ugo,100.0,PEA – profil prudent,1016.67,306787.61,True,0.045,0.172,5,150000.0
+Ugo,32.26,PEA – profil équilibré,328.0,99169.89,False,0.06,0.172,5,150000.0
+Ugo,25.0,PEA – profil équilibré,254.17,76846.59,False,0.06,0.172,5,150000.0
+Ugo,50.0,PEA – profil équilibré,508.33,153693.17,True,0.06,0.172,5,150000.0
+Ugo,75.0,PEA – profil équilibré,762.5,230539.76,True,0.06,0.172,5,150000.0
+Ugo,100.0,PEA – profil équilibré,1016.67,307386.35,True,0.06,0.172,5,150000.0
+Ugo,32.26,PEA – profil dynamique,328.0,99428.17,False,0.08,0.172,5,150000.0
+Ugo,25.0,PEA – profil dynamique,254.17,77046.73,False,0.08,0.172,5,150000.0
+Ugo,50.0,PEA – profil dynamique,508.33,154093.45,True,0.08,0.172,5,150000.0
+Ugo,75.0,PEA – profil dynamique,762.5,231140.18,True,0.08,0.172,5,150000.0
+Ugo,100.0,PEA – profil dynamique,1016.67,308186.9,True,0.08,0.172,5,150000.0
+Ugo,32.26,SCPI Iroko Zen,328.0,99310.67,False,0.071,0.3,5,
+Ugo,25.0,SCPI Iroko Zen,254.17,76955.68,False,0.071,0.3,5,
+Ugo,50.0,SCPI Iroko Zen,508.33,153911.36,True,0.071,0.3,5,
+Ugo,75.0,SCPI Iroko Zen,762.5,230867.03,True,0.071,0.3,5,
+Ugo,100.0,SCPI Iroko Zen,1016.67,307822.71,True,0.071,0.3,5,
+Ugo,32.26,SCPI Sofidynamic,328.0,99620.85,False,0.095,0.3,5,
+Ugo,25.0,SCPI Sofidynamic,254.17,77196.04,False,0.095,0.3,5,
+Ugo,50.0,SCPI Sofidynamic,508.33,154392.07,True,0.095,0.3,5,
+Ugo,75.0,SCPI Sofidynamic,762.5,231588.11,True,0.095,0.3,5,
+Ugo,100.0,SCPI Sofidynamic,1016.67,308784.15,True,0.095,0.3,5,
+Valérie,37.08,Livret A,377.0,181853.11,True,0.024,0.0,0,22950.0
+Valérie,25.0,Livret A,254.17,122602.12,False,0.024,0.0,0,22950.0
+Valérie,50.0,Livret A,508.33,245204.23,True,0.024,0.0,0,22950.0
+Valérie,75.0,Livret A,762.5,367806.35,True,0.024,0.0,0,22950.0
+Valérie,100.0,Livret A,1016.67,490408.47,True,0.024,0.0,0,22950.0
+Valérie,37.08,LDDS,377.0,181853.11,True,0.024,0.0,0,12000.0
+Valérie,25.0,LDDS,254.17,122602.12,False,0.024,0.0,0,12000.0
+Valérie,50.0,LDDS,508.33,245204.23,True,0.024,0.0,0,12000.0
+Valérie,75.0,LDDS,762.5,367806.35,True,0.024,0.0,0,12000.0
+Valérie,37.08,LEP,377.0,182264.32,True,0.035,0.0,0,7700.0
+Valérie,25.0,LEP,254.17,122879.35,False,0.035,0.0,0,7700.0
+Valérie,50.0,LEP,508.33,245758.69,True,0.035,0.0,0,7700.0
+Valérie,37.08,PEL (2025),377.0,181608.72,True,0.0175,0.3,4,61200.0
+Valérie,25.0,PEL (2025),254.17,122437.36,False,0.0175,0.3,4,61200.0
+Valérie,50.0,PEL (2025),508.33,244874.71,True,0.0175,0.3,4,61200.0
+Valérie,75.0,PEL (2025),762.5,367312.07,True,0.0175,0.3,4,61200.0
+Valérie,100.0,PEL (2025),1016.67,489749.43,True,0.0175,0.3,4,61200.0
+Valérie,37.08,Assurance Vie – euros,377.0,181888.84,True,0.025,0.172,8,150000.0
+Valérie,25.0,Assurance Vie – euros,254.17,122626.21,False,0.025,0.172,8,150000.0
+Valérie,50.0,Assurance Vie – euros,508.33,245252.42,True,0.025,0.172,8,150000.0
+Valérie,75.0,Assurance Vie – euros,762.5,367878.62,True,0.025,0.172,8,150000.0
+Valérie,100.0,Assurance Vie – euros,1016.67,490504.83,True,0.025,0.172,8,150000.0
+Valérie,37.08,Assurance Vie – UC Risque faible,377.0,182262.07,True,0.035,0.172,8,200000.0
+Valérie,25.0,Assurance Vie – UC Risque faible,254.17,122877.83,False,0.035,0.172,8,200000.0
+Valérie,50.0,Assurance Vie – UC Risque faible,508.33,245755.67,True,0.035,0.172,8,200000.0
+Valérie,75.0,Assurance Vie – UC Risque faible,762.5,368633.5,True,0.035,0.172,8,200000.0
+Valérie,100.0,Assurance Vie – UC Risque faible,1016.67,491511.33,True,0.035,0.172,8,200000.0
+Valérie,37.08,Assurance Vie – UC Risque modéré,377.0,182636.28,True,0.045,0.172,8,200000.0
+Valérie,25.0,Assurance Vie – UC Risque modéré,254.17,123130.11,False,0.045,0.172,8,200000.0
+Valérie,50.0,Assurance Vie – UC Risque modéré,508.33,246260.23,True,0.045,0.172,8,200000.0
+Valérie,75.0,Assurance Vie – UC Risque modéré,762.5,369390.34,True,0.045,0.172,8,200000.0
+Valérie,100.0,Assurance Vie – UC Risque modéré,1016.67,492520.46,True,0.045,0.172,8,200000.0
+Valérie,37.08,PEA – profil prudent,377.0,182636.28,True,0.045,0.172,5,150000.0
+Valérie,25.0,PEA – profil prudent,254.17,123130.11,False,0.045,0.172,5,150000.0
+Valérie,50.0,PEA – profil prudent,508.33,246260.23,True,0.045,0.172,5,150000.0
+Valérie,75.0,PEA – profil prudent,762.5,369390.34,True,0.045,0.172,5,150000.0
+Valérie,100.0,PEA – profil prudent,1016.67,492520.46,True,0.045,0.172,5,150000.0
+Valérie,37.08,PEA – profil équilibré,377.0,183199.41,True,0.06,0.172,5,150000.0
+Valérie,25.0,PEA – profil équilibré,254.17,123509.77,False,0.06,0.172,5,150000.0
+Valérie,50.0,PEA – profil équilibré,508.33,247019.54,True,0.06,0.172,5,150000.0
+Valérie,75.0,PEA – profil équilibré,762.5,370529.31,True,0.06,0.172,5,150000.0
+Valérie,100.0,PEA – profil équilibré,1016.67,494039.08,True,0.06,0.172,5,150000.0
+Valérie,37.08,PEA – profil dynamique,377.0,183953.69,True,0.08,0.172,5,150000.0
+Valérie,25.0,PEA – profil dynamique,254.17,124018.29,False,0.08,0.172,5,150000.0
+Valérie,50.0,PEA – profil dynamique,508.33,248036.58,True,0.08,0.172,5,150000.0
+Valérie,75.0,PEA – profil dynamique,762.5,372054.87,True,0.08,0.172,5,150000.0
+Valérie,100.0,PEA – profil dynamique,1016.67,496073.16,True,0.08,0.172,5,150000.0
+Valérie,37.08,SCPI Iroko Zen,377.0,183610.37,True,0.071,0.3,5,
+Valérie,25.0,SCPI Iroko Zen,254.17,123786.83,False,0.071,0.3,5,
+Valérie,50.0,SCPI Iroko Zen,508.33,247573.67,True,0.071,0.3,5,
+Valérie,75.0,SCPI Iroko Zen,762.5,371360.5,True,0.071,0.3,5,
+Valérie,100.0,SCPI Iroko Zen,1016.67,495147.34,True,0.071,0.3,5,
+Valérie,37.08,SCPI Sofidynamic,377.0,184517.41,True,0.095,0.3,5,
+Valérie,25.0,SCPI Sofidynamic,254.17,124398.34,False,0.095,0.3,5,
+Valérie,50.0,SCPI Sofidynamic,508.33,248796.69,True,0.095,0.3,5,
+Valérie,75.0,SCPI Sofidynamic,762.5,373195.03,True,0.095,0.3,5,
+Valérie,100.0,SCPI Sofidynamic,1016.67,497593.37,True,0.095,0.3,5,
+Wassim,57.76,Livret A,953.0,321324.73,True,0.024,0.0,0,22950.0
+Wassim,25.0,Livret A,412.5,139083.37,True,0.024,0.0,0,22950.0
+Wassim,50.0,Livret A,825.0,278166.74,True,0.024,0.0,0,22950.0
+Wassim,75.0,Livret A,1237.5,417250.11,True,0.024,0.0,0,22950.0
+Wassim,100.0,Livret A,1650.0,556333.49,True,0.024,0.0,0,22950.0
+Wassim,57.76,LDDS,953.0,321324.73,True,0.024,0.0,0,12000.0
+Wassim,25.0,LDDS,412.5,139083.37,True,0.024,0.0,0,12000.0
+Wassim,50.0,LDDS,825.0,278166.74,True,0.024,0.0,0,12000.0
+Wassim,25.0,LEP,412.5,139305.62,True,0.035,0.0,0,7700.0
+Wassim,57.76,PEL (2025),953.0,321019.37,True,0.0175,0.3,4,61200.0
+Wassim,25.0,PEL (2025),412.5,138951.2,True,0.0175,0.3,4,61200.0
+Wassim,50.0,PEL (2025),825.0,277902.39,True,0.0175,0.3,4,61200.0
+Wassim,75.0,PEL (2025),1237.5,416853.59,True,0.0175,0.3,4,61200.0
+Wassim,100.0,PEL (2025),1650.0,555804.78,True,0.0175,0.3,4,61200.0
+Wassim,57.76,Assurance Vie – euros,953.0,321369.37,True,0.025,0.172,8,150000.0
+Wassim,25.0,Assurance Vie – euros,412.5,139102.69,True,0.025,0.172,8,150000.0
+Wassim,50.0,Assurance Vie – euros,825.0,278205.38,True,0.025,0.172,8,150000.0
+Wassim,75.0,Assurance Vie – euros,1237.5,417308.07,True,0.025,0.172,8,150000.0
+Wassim,100.0,Assurance Vie – euros,1650.0,556410.76,True,0.025,0.172,8,150000.0
+Wassim,57.76,Assurance Vie – UC Risque faible,953.0,321835.38,True,0.035,0.172,8,200000.0
+Wassim,25.0,Assurance Vie – UC Risque faible,412.5,139304.4,True,0.035,0.172,8,200000.0
+Wassim,50.0,Assurance Vie – UC Risque faible,825.0,278608.8,True,0.035,0.172,8,200000.0
+Wassim,75.0,Assurance Vie – UC Risque faible,1237.5,417913.21,True,0.035,0.172,8,200000.0
+Wassim,100.0,Assurance Vie – UC Risque faible,1650.0,557217.61,True,0.035,0.172,8,200000.0
+Wassim,57.76,Assurance Vie – UC Risque modéré,953.0,322302.24,True,0.045,0.172,8,200000.0
+Wassim,25.0,Assurance Vie – UC Risque modéré,412.5,139506.48,True,0.045,0.172,8,200000.0
+Wassim,50.0,Assurance Vie – UC Risque modéré,825.0,279012.95,True,0.045,0.172,8,200000.0
+Wassim,75.0,Assurance Vie – UC Risque modéré,1237.5,418519.43,True,0.045,0.172,8,200000.0
+Wassim,100.0,Assurance Vie – UC Risque modéré,1650.0,558025.91,True,0.045,0.172,8,200000.0
+Wassim,57.76,PEA – profil prudent,953.0,322302.24,True,0.045,0.172,5,150000.0
+Wassim,25.0,PEA – profil prudent,412.5,139506.48,True,0.045,0.172,5,150000.0
+Wassim,50.0,PEA – profil prudent,825.0,279012.95,True,0.045,0.172,5,150000.0
+Wassim,75.0,PEA – profil prudent,1237.5,418519.43,True,0.045,0.172,5,150000.0
+Wassim,100.0,PEA – profil prudent,1650.0,558025.91,True,0.045,0.172,5,150000.0
+Wassim,57.76,PEA – profil équilibré,953.0,323004.09,True,0.06,0.172,5,150000.0
+Wassim,25.0,PEA – profil équilibré,412.5,139810.27,True,0.06,0.172,5,150000.0
+Wassim,50.0,PEA – profil équilibré,825.0,279620.54,True,0.06,0.172,5,150000.0
+Wassim,75.0,PEA – profil équilibré,1237.5,419430.81,True,0.06,0.172,5,150000.0
+Wassim,100.0,PEA – profil équilibré,1650.0,559241.09,True,0.06,0.172,5,150000.0
+Wassim,57.76,PEA – profil dynamique,953.0,323942.86,True,0.08,0.172,5,150000.0
+Wassim,25.0,PEA – profil dynamique,412.5,140216.61,True,0.08,0.172,5,150000.0
+Wassim,50.0,PEA – profil dynamique,825.0,280433.22,True,0.08,0.172,5,150000.0
+Wassim,75.0,PEA – profil dynamique,1237.5,420649.83,True,0.08,0.172,5,150000.0
+Wassim,100.0,PEA – profil dynamique,1650.0,560866.44,True,0.08,0.172,5,150000.0
+Wassim,57.76,SCPI Iroko Zen,953.0,323515.75,True,0.071,0.3,5,
+Wassim,25.0,SCPI Iroko Zen,412.5,140031.74,True,0.071,0.3,5,
+Wassim,50.0,SCPI Iroko Zen,825.0,280063.48,True,0.071,0.3,5,
+Wassim,75.0,SCPI Iroko Zen,1237.5,420095.22,True,0.071,0.3,5,
+Wassim,100.0,SCPI Iroko Zen,1650.0,560126.96,True,0.071,0.3,5,
+Wassim,57.76,SCPI Sofidynamic,953.0,324643.47,True,0.095,0.3,5,
+Wassim,25.0,SCPI Sofidynamic,412.5,140519.86,True,0.095,0.3,5,
+Wassim,50.0,SCPI Sofidynamic,825.0,281039.73,True,0.095,0.3,5,
+Wassim,75.0,SCPI Sofidynamic,1237.5,421559.59,True,0.095,0.3,5,
+Wassim,100.0,SCPI Sofidynamic,1650.0,562079.45,True,0.095,0.3,5,
+Xena,78.92,Livret A,1289.0,310140.77,True,0.024,0.0,0,22950.0
+Xena,25.0,Livret A,408.33,98247.34,False,0.024,0.0,0,22950.0
+Xena,50.0,Livret A,816.67,196494.67,False,0.024,0.0,0,22950.0
+Xena,75.0,Livret A,1225.0,294742.01,True,0.024,0.0,0,22950.0
+Xena,100.0,Livret A,1633.33,392989.34,True,0.024,0.0,0,22950.0
+Xena,25.0,LDDS,408.33,98247.34,False,0.024,0.0,0,12000.0
+Xena,50.0,LDDS,816.67,196494.67,False,0.024,0.0,0,12000.0
+Xena,25.0,LEP,408.33,98360.95,False,0.035,0.0,0,7700.0
+Xena,78.92,PEL (2025),1289.0,309927.37,True,0.0175,0.3,4,61200.0
+Xena,25.0,PEL (2025),408.33,98179.73,False,0.0175,0.3,4,61200.0
+Xena,50.0,PEL (2025),816.67,196359.47,False,0.0175,0.3,4,61200.0
+Xena,75.0,PEL (2025),1225.0,294539.2,True,0.0175,0.3,4,61200.0
+Xena,100.0,PEL (2025),1633.33,392718.94,True,0.0175,0.3,4,61200.0
+Xena,78.92,Assurance Vie – euros,1289.0,310171.96,True,0.025,0.172,8,150000.0
+Xena,25.0,Assurance Vie – euros,408.33,98257.21,False,0.025,0.172,8,150000.0
+Xena,50.0,Assurance Vie – euros,816.67,196514.43,False,0.025,0.172,8,150000.0
+Xena,75.0,Assurance Vie – euros,1225.0,294771.64,True,0.025,0.172,8,150000.0
+Xena,100.0,Assurance Vie – euros,1633.33,393028.86,True,0.025,0.172,8,150000.0
+Xena,78.92,Assurance Vie – UC Risque faible,1289.0,310497.46,True,0.035,0.172,8,200000.0
+Xena,25.0,Assurance Vie – UC Risque faible,408.33,98360.33,False,0.035,0.172,8,200000.0
+Xena,50.0,Assurance Vie – UC Risque faible,816.67,196720.66,False,0.035,0.172,8,200000.0
+Xena,75.0,Assurance Vie – UC Risque faible,1225.0,295080.99,True,0.035,0.172,8,200000.0
+Xena,100.0,Assurance Vie – UC Risque faible,1633.33,393441.32,True,0.035,0.172,8,200000.0
+Xena,78.92,Assurance Vie – UC Risque modéré,1289.0,310823.38,True,0.045,0.172,8,200000.0
+Xena,25.0,Assurance Vie – UC Risque modéré,408.33,98463.57,False,0.045,0.172,8,200000.0
+Xena,50.0,Assurance Vie – UC Risque modéré,816.67,196927.15,False,0.045,0.172,8,200000.0
+Xena,75.0,Assurance Vie – UC Risque modéré,1225.0,295390.72,True,0.045,0.172,8,200000.0
+Xena,100.0,Assurance Vie – UC Risque modéré,1633.33,393854.29,True,0.045,0.172,8,200000.0
+Xena,78.92,PEA – profil prudent,1289.0,310823.38,True,0.045,0.172,5,150000.0
+Xena,25.0,PEA – profil prudent,408.33,98463.57,False,0.045,0.172,5,150000.0
+Xena,50.0,PEA – profil prudent,816.67,196927.15,False,0.045,0.172,5,150000.0
+Xena,75.0,PEA – profil prudent,1225.0,295390.72,True,0.045,0.172,5,150000.0
+Xena,100.0,PEA – profil prudent,1633.33,393854.29,True,0.045,0.172,5,150000.0
+Xena,78.92,PEA – profil équilibré,1289.0,311313.03,True,0.06,0.172,5,150000.0
+Xena,25.0,PEA – profil équilibré,408.33,98618.69,False,0.06,0.172,5,150000.0
+Xena,50.0,PEA – profil équilibré,816.67,197237.37,False,0.06,0.172,5,150000.0
+Xena,75.0,PEA – profil équilibré,1225.0,295856.06,True,0.06,0.172,5,150000.0
+Xena,100.0,PEA – profil équilibré,1633.33,394474.75,True,0.06,0.172,5,150000.0
+Xena,78.92,PEA – profil dynamique,1289.0,311967.35,True,0.08,0.172,5,150000.0
+Xena,25.0,PEA – profil dynamique,408.33,98825.96,False,0.08,0.172,5,150000.0
+Xena,50.0,PEA – profil dynamique,816.67,197651.93,False,0.08,0.172,5,150000.0
+Xena,75.0,PEA – profil dynamique,1225.0,296477.89,True,0.08,0.172,5,150000.0
+Xena,100.0,PEA – profil dynamique,1633.33,395303.85,True,0.08,0.172,5,150000.0
+Xena,78.92,SCPI Iroko Zen,1289.0,311669.73,True,0.071,0.3,5,
+Xena,25.0,SCPI Iroko Zen,408.33,98731.68,False,0.071,0.3,5,
+Xena,50.0,SCPI Iroko Zen,816.67,197463.37,False,0.071,0.3,5,
+Xena,75.0,SCPI Iroko Zen,1225.0,296195.05,True,0.071,0.3,5,
+Xena,100.0,SCPI Iroko Zen,1633.33,394926.74,True,0.071,0.3,5,
+Xena,78.92,SCPI Sofidynamic,1289.0,312455.2,True,0.095,0.3,5,
+Xena,25.0,SCPI Sofidynamic,408.33,98980.51,False,0.095,0.3,5,
+Xena,50.0,SCPI Sofidynamic,816.67,197961.01,False,0.095,0.3,5,
+Xena,75.0,SCPI Sofidynamic,1225.0,296941.52,True,0.095,0.3,5,
+Xena,100.0,SCPI Sofidynamic,1633.33,395922.03,True,0.095,0.3,5,
+Yassine,47.81,Livret A,510.0,110411.51,True,0.024,0.0,0,22950.0
+Yassine,25.0,Livret A,266.67,57731.51,False,0.024,0.0,0,22950.0
+Yassine,50.0,Livret A,533.33,115463.01,True,0.024,0.0,0,22950.0
+Yassine,75.0,Livret A,800.0,173194.52,True,0.024,0.0,0,22950.0
+Yassine,100.0,Livret A,1066.67,230926.03,True,0.024,0.0,0,22950.0
+Yassine,47.81,LDDS,510.0,110411.51,True,0.024,0.0,0,12000.0
+Yassine,25.0,LDDS,266.67,57731.51,False,0.024,0.0,0,12000.0
+Yassine,50.0,LDDS,533.33,115463.01,True,0.024,0.0,0,12000.0
+Yassine,75.0,LDDS,800.0,173194.52,True,0.024,0.0,0,12000.0
+Yassine,47.81,LEP,510.0,110527.01,True,0.035,0.0,0,7700.0
+Yassine,25.0,LEP,266.67,57791.9,False,0.035,0.0,0,7700.0
+Yassine,50.0,LEP,533.33,115583.8,True,0.035,0.0,0,7700.0
+Yassine,47.81,PEL (2025),510.0,110342.77,True,0.0175,0.3,4,61200.0
+Yassine,25.0,PEL (2025),266.67,57695.57,False,0.0175,0.3,4,61200.0
+Yassine,50.0,PEL (2025),533.33,115391.13,True,0.0175,0.3,4,61200.0
+Yassine,75.0,PEL (2025),800.0,173086.7,True,0.0175,0.3,4,61200.0
+Yassine,100.0,PEL (2025),1066.67,230782.27,True,0.0175,0.3,4,61200.0
+Yassine,47.81,Assurance Vie – euros,510.0,110421.55,True,0.025,0.172,8,150000.0
+Yassine,25.0,Assurance Vie – euros,266.67,57736.76,False,0.025,0.172,8,150000.0
+Yassine,50.0,Assurance Vie – euros,533.33,115473.52,True,0.025,0.172,8,150000.0
+Yassine,75.0,Assurance Vie – euros,800.0,173210.28,True,0.025,0.172,8,150000.0
+Yassine,100.0,Assurance Vie – euros,1066.67,230947.03,True,0.025,0.172,8,150000.0
+Yassine,47.81,Assurance Vie – UC Risque faible,510.0,110526.38,True,0.035,0.172,8,200000.0
+Yassine,25.0,Assurance Vie – UC Risque faible,266.67,57791.57,False,0.035,0.172,8,200000.0
+Yassine,50.0,Assurance Vie – UC Risque faible,533.33,115583.14,True,0.035,0.172,8,200000.0
+Yassine,75.0,Assurance Vie – UC Risque faible,800.0,173374.71,True,0.035,0.172,8,200000.0
+Yassine,100.0,Assurance Vie – UC Risque faible,1066.67,231166.28,True,0.035,0.172,8,200000.0
+Yassine,47.81,Assurance Vie – UC Risque modéré,510.0,110631.32,True,0.045,0.172,8,200000.0
+Yassine,25.0,Assurance Vie – UC Risque modéré,266.67,57846.44,False,0.045,0.172,8,200000.0
+Yassine,50.0,Assurance Vie – UC Risque modéré,533.33,115692.89,True,0.045,0.172,8,200000.0
+Yassine,75.0,Assurance Vie – UC Risque modéré,800.0,173539.33,True,0.045,0.172,8,200000.0
+Yassine,100.0,Assurance Vie – UC Risque modéré,1066.67,231385.78,True,0.045,0.172,8,200000.0
+Yassine,47.81,PEA – profil prudent,510.0,110631.32,True,0.045,0.172,5,150000.0
+Yassine,25.0,PEA – profil prudent,266.67,57846.44,False,0.045,0.172,5,150000.0
+Yassine,50.0,PEA – profil prudent,533.33,115692.89,True,0.045,0.172,5,150000.0
+Yassine,75.0,PEA – profil prudent,800.0,173539.33,True,0.045,0.172,5,150000.0
+Yassine,100.0,PEA – profil prudent,1066.67,231385.78,True,0.045,0.172,5,150000.0
+Yassine,47.81,PEA – profil équilibré,510.0,110788.97,True,0.06,0.172,5,150000.0
+Yassine,25.0,PEA – profil équilibré,266.67,57928.87,False,0.06,0.172,5,150000.0
+Yassine,50.0,PEA – profil équilibré,533.33,115857.74,True,0.06,0.172,5,150000.0
+Yassine,75.0,PEA – profil équilibré,800.0,173786.62,True,0.06,0.172,5,150000.0
+Yassine,100.0,PEA – profil équilibré,1066.67,231715.49,True,0.06,0.172,5,150000.0
+Yassine,47.81,PEA – profil dynamique,510.0,110999.58,True,0.08,0.172,5,150000.0
+Yassine,25.0,PEA – profil dynamique,266.67,58038.99,False,0.08,0.172,5,150000.0
+Yassine,50.0,PEA – profil dynamique,533.33,116077.99,True,0.08,0.172,5,150000.0
+Yassine,75.0,PEA – profil dynamique,800.0,174116.98,True,0.08,0.172,5,150000.0
+Yassine,100.0,PEA – profil dynamique,1066.67,232155.98,True,0.08,0.172,5,150000.0
+Yassine,47.81,SCPI Iroko Zen,510.0,110903.79,True,0.071,0.3,5,
+Yassine,25.0,SCPI Iroko Zen,266.67,57988.91,False,0.071,0.3,5,
+Yassine,50.0,SCPI Iroko Zen,533.33,115977.82,True,0.071,0.3,5,
+Yassine,75.0,SCPI Iroko Zen,800.0,173966.73,True,0.071,0.3,5,
+Yassine,100.0,SCPI Iroko Zen,1066.67,231955.64,True,0.071,0.3,5,
+Yassine,47.81,SCPI Sofidynamic,510.0,111156.57,True,0.095,0.3,5,
+Yassine,25.0,SCPI Sofidynamic,266.67,58121.08,False,0.095,0.3,5,
+Yassine,50.0,SCPI Sofidynamic,533.33,116242.16,True,0.095,0.3,5,
+Yassine,75.0,SCPI Sofidynamic,800.0,174363.24,True,0.095,0.3,5,
+Yassine,100.0,SCPI Sofidynamic,1066.67,232484.32,True,0.095,0.3,5,
+Zoé,57.17,Livret A,667.0,208779.61,True,0.024,0.0,0,22950.0
+Zoé,25.0,Livret A,291.67,91295.43,True,0.024,0.0,0,22950.0
+Zoé,50.0,Livret A,583.33,182590.86,True,0.024,0.0,0,22950.0
+Zoé,75.0,Livret A,875.0,273886.29,True,0.024,0.0,0,22950.0
+Zoé,100.0,Livret A,1166.67,365181.72,True,0.024,0.0,0,22950.0
+Zoé,57.17,LDDS,667.0,208779.61,True,0.024,0.0,0,12000.0
+Zoé,25.0,LDDS,291.67,91295.43,True,0.024,0.0,0,12000.0
+Zoé,50.0,LDDS,583.33,182590.86,True,0.024,0.0,0,12000.0
+Zoé,75.0,LDDS,875.0,273886.29,True,0.024,0.0,0,12000.0
+Zoé,25.0,LEP,291.67,91431.23,True,0.035,0.0,0,7700.0
+Zoé,50.0,LEP,583.33,182862.46,True,0.035,0.0,0,7700.0
+Zoé,57.17,PEL (2025),667.0,208594.89,True,0.0175,0.3,4,61200.0
+Zoé,25.0,PEL (2025),291.67,91214.66,True,0.0175,0.3,4,61200.0
+Zoé,50.0,PEL (2025),583.33,182429.31,True,0.0175,0.3,4,61200.0
+Zoé,75.0,PEL (2025),875.0,273643.97,True,0.0175,0.3,4,61200.0
+Zoé,100.0,PEL (2025),1166.67,364858.62,True,0.0175,0.3,4,61200.0
+Zoé,57.17,Assurance Vie – euros,667.0,208806.61,True,0.025,0.172,8,150000.0
+Zoé,25.0,Assurance Vie – euros,291.67,91307.24,True,0.025,0.172,8,150000.0
+Zoé,50.0,Assurance Vie – euros,583.33,182614.47,True,0.025,0.172,8,150000.0
+Zoé,75.0,Assurance Vie – euros,875.0,273921.71,True,0.025,0.172,8,150000.0
+Zoé,100.0,Assurance Vie – euros,1166.67,365228.95,True,0.025,0.172,8,150000.0
+Zoé,57.17,Assurance Vie – UC Risque faible,667.0,209088.47,True,0.035,0.172,8,200000.0
+Zoé,25.0,Assurance Vie – UC Risque faible,291.67,91430.49,True,0.035,0.172,8,200000.0
+Zoé,50.0,Assurance Vie – UC Risque faible,583.33,182860.98,True,0.035,0.172,8,200000.0
+Zoé,75.0,Assurance Vie – UC Risque faible,875.0,274291.47,True,0.035,0.172,8,200000.0
+Zoé,100.0,Assurance Vie – UC Risque faible,1166.67,365721.96,True,0.035,0.172,8,200000.0
+Zoé,57.17,Assurance Vie – UC Risque modéré,667.0,209370.8,True,0.045,0.172,8,200000.0
+Zoé,25.0,Assurance Vie – UC Risque modéré,291.67,91553.95,True,0.045,0.172,8,200000.0
+Zoé,50.0,Assurance Vie – UC Risque modéré,583.33,183107.9,True,0.045,0.172,8,200000.0
+Zoé,75.0,Assurance Vie – UC Risque modéré,875.0,274661.85,True,0.045,0.172,8,200000.0
+Zoé,100.0,Assurance Vie – UC Risque modéré,1166.67,366215.8,True,0.045,0.172,8,200000.0
+Zoé,57.17,PEA – profil prudent,667.0,209370.8,True,0.045,0.172,5,150000.0
+Zoé,25.0,PEA – profil prudent,291.67,91553.95,True,0.045,0.172,5,150000.0
+Zoé,50.0,PEA – profil prudent,583.33,183107.9,True,0.045,0.172,5,150000.0
+Zoé,75.0,PEA – profil prudent,875.0,274661.85,True,0.045,0.172,5,150000.0
+Zoé,100.0,PEA – profil prudent,1166.67,366215.8,True,0.045,0.172,5,150000.0
+Zoé,57.17,PEA – profil équilibré,667.0,209795.19,True,0.06,0.172,5,150000.0
+Zoé,25.0,PEA – profil équilibré,291.67,91739.52,True,0.06,0.172,5,150000.0
+Zoé,50.0,PEA – profil équilibré,583.33,183479.05,True,0.06,0.172,5,150000.0
+Zoé,75.0,PEA – profil équilibré,875.0,275218.57,True,0.06,0.172,5,150000.0
+Zoé,100.0,PEA – profil équilibré,1166.67,366958.1,True,0.06,0.172,5,150000.0
+Zoé,57.17,PEA – profil dynamique,667.0,210362.69,True,0.08,0.172,5,150000.0
+Zoé,25.0,PEA – profil dynamique,291.67,91987.68,True,0.08,0.172,5,150000.0
+Zoé,50.0,PEA – profil dynamique,583.33,183975.36,True,0.08,0.172,5,150000.0
+Zoé,75.0,PEA – profil dynamique,875.0,275963.05,True,0.08,0.172,5,150000.0
+Zoé,100.0,PEA – profil dynamique,1166.67,367950.73,True,0.08,0.172,5,150000.0
+Zoé,57.17,SCPI Iroko Zen,667.0,210104.51,True,0.071,0.3,5,
+Zoé,25.0,SCPI Iroko Zen,291.67,91874.79,True,0.071,0.3,5,
+Zoé,50.0,SCPI Iroko Zen,583.33,183749.57,True,0.071,0.3,5,
+Zoé,75.0,SCPI Iroko Zen,875.0,275624.36,True,0.071,0.3,5,
+Zoé,100.0,SCPI Iroko Zen,1166.67,367499.14,True,0.071,0.3,5,
+Zoé,57.17,SCPI Sofidynamic,667.0,210786.11,True,0.095,0.3,5,
+Zoé,25.0,SCPI Sofidynamic,291.67,92172.84,True,0.095,0.3,5,
+Zoé,50.0,SCPI Sofidynamic,583.33,184345.68,True,0.095,0.3,5,
+Zoé,75.0,SCPI Sofidynamic,875.0,276518.51,True,0.095,0.3,5,
+Zoé,100.0,SCPI Sofidynamic,1166.67,368691.35,True,0.095,0.3,5,
+Abdel,58.15,Livret A,1066.0,128088.98,False,0.024,0.0,0,22950.0
+Abdel,25.0,Livret A,458.33,55072.65,False,0.024,0.0,0,22950.0
+Abdel,50.0,Livret A,916.67,110145.3,False,0.024,0.0,0,22950.0
+Abdel,75.0,Livret A,1375.0,165217.96,False,0.024,0.0,0,22950.0
+Abdel,100.0,Livret A,1833.33,220290.61,True,0.024,0.0,0,22950.0
+Abdel,25.0,LDDS,458.33,55072.65,False,0.024,0.0,0,12000.0
+Abdel,50.0,LDDS,916.67,110145.3,False,0.024,0.0,0,12000.0
+Abdel,25.0,LEP,458.33,55105.99,False,0.035,0.0,0,7700.0
+Abdel,58.15,PEL (2025),1066.0,128042.82,False,0.0175,0.3,4,61200.0
+Abdel,25.0,PEL (2025),458.33,55052.81,False,0.0175,0.3,4,61200.0
+Abdel,50.0,PEL (2025),916.67,110105.61,False,0.0175,0.3,4,61200.0
+Abdel,75.0,PEL (2025),1375.0,165158.42,False,0.0175,0.3,4,61200.0
+Abdel,100.0,PEL (2025),1833.33,220211.23,True,0.0175,0.3,4,61200.0
+Abdel,58.15,Assurance Vie – euros,1066.0,128095.72,False,0.025,0.172,8,150000.0
+Abdel,25.0,Assurance Vie – euros,458.33,55075.55,False,0.025,0.172,8,150000.0
+Abdel,50.0,Assurance Vie – euros,916.67,110151.1,False,0.025,0.172,8,150000.0
+Abdel,75.0,Assurance Vie – euros,1375.0,165226.65,False,0.025,0.172,8,150000.0
+Abdel,100.0,Assurance Vie – euros,1833.33,220302.21,True,0.025,0.172,8,150000.0
+Abdel,58.15,Assurance Vie – UC Risque faible,1066.0,128166.08,False,0.035,0.172,8,200000.0
+Abdel,25.0,Assurance Vie – UC Risque faible,458.33,55105.8,False,0.035,0.172,8,200000.0
+Abdel,50.0,Assurance Vie – UC Risque faible,916.67,110211.61,False,0.035,0.172,8,200000.0
+Abdel,75.0,Assurance Vie – UC Risque faible,1375.0,165317.41,False,0.035,0.172,8,200000.0
+Abdel,100.0,Assurance Vie – UC Risque faible,1833.33,220423.22,True,0.035,0.172,8,200000.0
+Abdel,58.15,Assurance Vie – UC Risque modéré,1066.0,128236.48,False,0.045,0.172,8,200000.0
+Abdel,25.0,Assurance Vie – UC Risque modéré,458.33,55136.07,False,0.045,0.172,8,200000.0
+Abdel,50.0,Assurance Vie – UC Risque modéré,916.67,110272.15,False,0.045,0.172,8,200000.0
+Abdel,75.0,Assurance Vie – UC Risque modéré,1375.0,165408.22,False,0.045,0.172,8,200000.0
+Abdel,100.0,Assurance Vie – UC Risque modéré,1833.33,220544.3,True,0.045,0.172,8,200000.0
+Abdel,58.15,PEA – profil prudent,1066.0,128236.48,False,0.045,0.172,5,150000.0
+Abdel,25.0,PEA – profil prudent,458.33,55136.07,False,0.045,0.172,5,150000.0
+Abdel,50.0,PEA – profil prudent,916.67,110272.15,False,0.045,0.172,5,150000.0
+Abdel,75.0,PEA – profil prudent,1375.0,165408.22,False,0.045,0.172,5,150000.0
+Abdel,100.0,PEA – profil prudent,1833.33,220544.3,True,0.045,0.172,5,150000.0
+Abdel,58.15,PEA – profil équilibré,1066.0,128342.17,False,0.06,0.172,5,150000.0
+Abdel,25.0,PEA – profil équilibré,458.33,55181.51,False,0.06,0.172,5,150000.0
+Abdel,50.0,PEA – profil équilibré,916.67,110363.03,False,0.06,0.172,5,150000.0
+Abdel,75.0,PEA – profil équilibré,1375.0,165544.54,False,0.06,0.172,5,150000.0
+Abdel,100.0,PEA – profil équilibré,1833.33,220726.06,True,0.06,0.172,5,150000.0
+Abdel,58.15,PEA – profil dynamique,1066.0,128483.23,False,0.08,0.172,5,150000.0
+Abdel,25.0,PEA – profil dynamique,458.33,55242.16,False,0.08,0.172,5,150000.0
+Abdel,50.0,PEA – profil dynamique,916.67,110484.33,False,0.08,0.172,5,150000.0
+Abdel,75.0,PEA – profil dynamique,1375.0,165726.49,False,0.08,0.172,5,150000.0
+Abdel,100.0,PEA – profil dynamique,1833.33,220968.66,True,0.08,0.172,5,150000.0
+Abdel,58.15,SCPI Iroko Zen,1066.0,128419.09,False,0.071,0.3,5,
+Abdel,25.0,SCPI Iroko Zen,458.33,55214.59,False,0.071,0.3,5,
+Abdel,50.0,SCPI Iroko Zen,916.67,110429.17,False,0.071,0.3,5,
+Abdel,75.0,SCPI Iroko Zen,1375.0,165643.76,False,0.071,0.3,5,
+Abdel,100.0,SCPI Iroko Zen,1833.33,220858.35,True,0.071,0.3,5,
+Abdel,58.15,SCPI Sofidynamic,1066.0,128588.28,False,0.095,0.3,5,
+Abdel,25.0,SCPI Sofidynamic,458.33,55287.33,False,0.095,0.3,5,
+Abdel,50.0,SCPI Sofidynamic,916.67,110574.66,False,0.095,0.3,5,
+Abdel,75.0,SCPI Sofidynamic,1375.0,165861.99,False,0.095,0.3,5,
+Abdel,100.0,SCPI Sofidynamic,1833.33,221149.32,True,0.095,0.3,5,
+Brigitte,55.16,Livret A,570.0,274950.32,True,0.024,0.0,0,22950.0
+Brigitte,25.0,Livret A,258.33,124611.99,False,0.024,0.0,0,22950.0
+Brigitte,50.0,Livret A,516.67,249223.98,True,0.024,0.0,0,22950.0
+Brigitte,75.0,Livret A,775.0,373835.96,True,0.024,0.0,0,22950.0
+Brigitte,100.0,Livret A,1033.33,498447.95,True,0.024,0.0,0,22950.0
+Brigitte,55.16,LDDS,570.0,274950.32,True,0.024,0.0,0,12000.0
+Brigitte,25.0,LDDS,258.33,124611.99,False,0.024,0.0,0,12000.0
+Brigitte,50.0,LDDS,516.67,249223.98,True,0.024,0.0,0,12000.0
+Brigitte,75.0,LDDS,775.0,373835.96,True,0.024,0.0,0,12000.0
+Brigitte,55.16,LEP,570.0,275572.04,True,0.035,0.0,0,7700.0
+Brigitte,25.0,LEP,258.33,124893.76,False,0.035,0.0,0,7700.0
+Brigitte,50.0,LEP,516.67,249787.52,True,0.035,0.0,0,7700.0
+Brigitte,55.16,PEL (2025),570.0,274580.83,True,0.0175,0.3,4,61200.0
+Brigitte,25.0,PEL (2025),258.33,124444.53,False,0.0175,0.3,4,61200.0
+Brigitte,50.0,PEL (2025),516.67,248889.05,True,0.0175,0.3,4,61200.0
+Brigitte,75.0,PEL (2025),775.0,373333.58,True,0.0175,0.3,4,61200.0
+Brigitte,100.0,PEL (2025),1033.33,497778.1,True,0.0175,0.3,4,61200.0
+Brigitte,55.16,Assurance Vie – euros,570.0,275004.35,True,0.025,0.172,8,150000.0
+Brigitte,25.0,Assurance Vie – euros,258.33,124636.47,False,0.025,0.172,8,150000.0
+Brigitte,50.0,Assurance Vie – euros,516.67,249272.95,True,0.025,0.172,8,150000.0
+Brigitte,75.0,Assurance Vie – euros,775.0,373909.42,True,0.025,0.172,8,150000.0
+Brigitte,100.0,Assurance Vie – euros,1033.33,498545.89,True,0.025,0.172,8,150000.0
+Brigitte,55.16,Assurance Vie – UC Risque faible,570.0,275568.65,True,0.035,0.172,8,200000.0
+Brigitte,25.0,Assurance Vie – UC Risque faible,258.33,124892.22,False,0.035,0.172,8,200000.0
+Brigitte,50.0,Assurance Vie – UC Risque faible,516.67,249784.45,True,0.035,0.172,8,200000.0
+Brigitte,75.0,Assurance Vie – UC Risque faible,775.0,374676.67,True,0.035,0.172,8,200000.0
+Brigitte,100.0,Assurance Vie – UC Risque faible,1033.33,499568.9,True,0.035,0.172,8,200000.0
+Brigitte,55.16,Assurance Vie – UC Risque modéré,570.0,276134.42,True,0.045,0.172,8,200000.0
+Brigitte,25.0,Assurance Vie – UC Risque modéré,258.33,125148.64,False,0.045,0.172,8,200000.0
+Brigitte,50.0,Assurance Vie – UC Risque modéré,516.67,250297.28,True,0.045,0.172,8,200000.0
+Brigitte,75.0,Assurance Vie – UC Risque modéré,775.0,375445.92,True,0.045,0.172,8,200000.0
+Brigitte,100.0,Assurance Vie – UC Risque modéré,1033.33,500594.57,True,0.045,0.172,8,200000.0
+Brigitte,55.16,PEA – profil prudent,570.0,276134.42,True,0.045,0.172,5,150000.0
+Brigitte,25.0,PEA – profil prudent,258.33,125148.64,False,0.045,0.172,5,150000.0
+Brigitte,50.0,PEA – profil prudent,516.67,250297.28,True,0.045,0.172,5,150000.0
+Brigitte,75.0,PEA – profil prudent,775.0,375445.92,True,0.045,0.172,5,150000.0
+Brigitte,100.0,PEA – profil prudent,1033.33,500594.57,True,0.045,0.172,5,150000.0
+Brigitte,55.16,PEA – profil équilibré,570.0,276985.85,True,0.06,0.172,5,150000.0
+Brigitte,25.0,PEA – profil équilibré,258.33,125534.52,False,0.06,0.172,5,150000.0
+Brigitte,50.0,PEA – profil équilibré,516.67,251069.04,True,0.06,0.172,5,150000.0
+Brigitte,75.0,PEA – profil équilibré,775.0,376603.56,True,0.06,0.172,5,150000.0
+Brigitte,100.0,PEA – profil équilibré,1033.33,502138.08,True,0.06,0.172,5,150000.0
+Brigitte,55.16,PEA – profil dynamique,570.0,278126.26,True,0.08,0.172,5,150000.0
+Brigitte,25.0,PEA – profil dynamique,258.33,126051.38,False,0.08,0.172,5,150000.0
+Brigitte,50.0,PEA – profil dynamique,516.67,252102.75,True,0.08,0.172,5,150000.0
+Brigitte,75.0,PEA – profil dynamique,775.0,378154.13,True,0.08,0.172,5,150000.0
+Brigitte,100.0,PEA – profil dynamique,1033.33,504205.51,True,0.08,0.172,5,150000.0
+Brigitte,55.16,SCPI Iroko Zen,570.0,277607.2,True,0.071,0.3,5,
+Brigitte,25.0,SCPI Iroko Zen,258.33,125816.13,False,0.071,0.3,5,
+Brigitte,50.0,SCPI Iroko Zen,516.67,251632.25,True,0.071,0.3,5,
+Brigitte,75.0,SCPI Iroko Zen,775.0,377448.38,True,0.071,0.3,5,
+Brigitte,100.0,SCPI Iroko Zen,1033.33,503264.51,True,0.071,0.3,5,
+Brigitte,55.16,SCPI Sofidynamic,570.0,278978.58,True,0.095,0.3,5,
+Brigitte,25.0,SCPI Sofidynamic,258.33,126437.66,False,0.095,0.3,5,
+Brigitte,50.0,SCPI Sofidynamic,516.67,252875.32,True,0.095,0.3,5,
+Brigitte,75.0,SCPI Sofidynamic,775.0,379312.98,True,0.095,0.3,5,
+Brigitte,100.0,SCPI Sofidynamic,1033.33,505750.64,True,0.095,0.3,5,
+Cédric,0.0,Livret A,23.0,1380.99,False,0.024,0.0,0,22950.0
+Cédric,0.0,Livret A,-12.5,-750.54,False,0.024,0.0,0,22950.0
+Cédric,0.0,Livret A,-25.0,-1501.08,False,0.024,0.0,0,22950.0
+Cédric,0.0,Livret A,-37.5,-2251.62,False,0.024,0.0,0,22950.0
+Cédric,0.0,Livret A,-50.0,-3002.16,False,0.024,0.0,0,22950.0
+Cédric,0.0,LDDS,23.0,1380.99,False,0.024,0.0,0,12000.0
+Cédric,0.0,LDDS,-12.5,-750.54,False,0.024,0.0,0,12000.0
+Cédric,0.0,LDDS,-25.0,-1501.08,False,0.024,0.0,0,12000.0
+Cédric,0.0,LDDS,-37.5,-2251.62,False,0.024,0.0,0,12000.0
+Cédric,0.0,LDDS,-50.0,-3002.16,False,0.024,0.0,0,12000.0
+Cédric,0.0,LEP,23.0,1381.45,False,0.035,0.0,0,7700.0
+Cédric,0.0,LEP,-12.5,-750.79,False,0.035,0.0,0,7700.0
+Cédric,0.0,LEP,-25.0,-1501.58,False,0.035,0.0,0,7700.0
+Cédric,0.0,LEP,-37.5,-2252.36,False,0.035,0.0,0,7700.0
+Cédric,0.0,LEP,-50.0,-3003.15,False,0.035,0.0,0,7700.0
+Cédric,0.0,PEL (2025),23.0,1380.72,False,0.0175,0.3,4,61200.0
+Cédric,0.0,PEL (2025),-12.5,-750.39,False,0.0175,0.3,4,61200.0
+Cédric,0.0,PEL (2025),-25.0,-1500.79,False,0.0175,0.3,4,61200.0
+Cédric,0.0,PEL (2025),-37.5,-2251.18,False,0.0175,0.3,4,61200.0
+Cédric,0.0,PEL (2025),-50.0,-3001.57,False,0.0175,0.3,4,61200.0
+Cédric,0.0,PEA – profil prudent,23.0,1381.86,False,0.045,0.172,5,150000.0
+Cédric,0.0,PEA – profil prudent,-12.5,-751.01,False,0.045,0.172,5,150000.0
+Cédric,0.0,PEA – profil prudent,-25.0,-1502.02,False,0.045,0.172,5,150000.0
+Cédric,0.0,PEA – profil prudent,-37.5,-2253.03,False,0.045,0.172,5,150000.0
+Cédric,0.0,PEA – profil prudent,-50.0,-3004.05,False,0.045,0.172,5,150000.0
+Cédric,0.0,PEA – profil équilibré,23.0,1382.48,False,0.06,0.172,5,150000.0
+Cédric,0.0,PEA – profil équilibré,-12.5,-751.35,False,0.06,0.172,5,150000.0
+Cédric,0.0,PEA – profil équilibré,-25.0,-1502.7,False,0.06,0.172,5,150000.0
+Cédric,0.0,PEA – profil équilibré,-37.5,-2254.05,False,0.06,0.172,5,150000.0
+Cédric,0.0,PEA – profil équilibré,-50.0,-3005.4,False,0.06,0.172,5,150000.0
+Cédric,0.0,PEA – profil dynamique,23.0,1383.31,False,0.08,0.172,5,150000.0
+Cédric,0.0,PEA – profil dynamique,-12.5,-751.8,False,0.08,0.172,5,150000.0
+Cédric,0.0,PEA – profil dynamique,-25.0,-1503.6,False,0.08,0.172,5,150000.0
+Cédric,0.0,PEA – profil dynamique,-37.5,-2255.4,False,0.08,0.172,5,150000.0
+Cédric,0.0,PEA – profil dynamique,-50.0,-3007.2,False,0.08,0.172,5,150000.0
+Cédric,0.0,SCPI Iroko Zen,23.0,1382.93,False,0.071,0.3,5,
+Cédric,0.0,SCPI Iroko Zen,-12.5,-751.59,False,0.071,0.3,5,
+Cédric,0.0,SCPI Iroko Zen,-25.0,-1503.19,False,0.071,0.3,5,
+Cédric,0.0,SCPI Iroko Zen,-37.5,-2254.78,False,0.071,0.3,5,
+Cédric,0.0,SCPI Iroko Zen,-50.0,-3006.38,False,0.071,0.3,5,
+Cédric,0.0,SCPI Sofidynamic,23.0,1383.93,False,0.095,0.3,5,
+Cédric,0.0,SCPI Sofidynamic,-12.5,-752.13,False,0.095,0.3,5,
+Cédric,0.0,SCPI Sofidynamic,-25.0,-1504.27,False,0.095,0.3,5,
+Cédric,0.0,SCPI Sofidynamic,-37.5,-2256.4,False,0.095,0.3,5,
+Cédric,0.0,SCPI Sofidynamic,-50.0,-3008.54,False,0.095,0.3,5,
+Diane,43.6,Livret A,327.0,141892.97,True,0.024,0.0,0,22950.0
+Diane,25.0,Livret A,187.5,81360.65,False,0.024,0.0,0,22950.0
+Diane,50.0,Livret A,375.0,162721.3,True,0.024,0.0,0,22950.0
+Diane,75.0,Livret A,562.5,244081.95,True,0.024,0.0,0,22950.0
+Diane,100.0,Livret A,750.0,325442.6,True,0.024,0.0,0,22950.0
+Diane,43.6,LDDS,327.0,141892.97,True,0.024,0.0,0,12000.0
+Diane,25.0,LDDS,187.5,81360.65,False,0.024,0.0,0,12000.0
+Diane,50.0,LDDS,375.0,162721.3,True,0.024,0.0,0,12000.0
+Diane,75.0,LDDS,562.5,244081.95,True,0.024,0.0,0,12000.0
+Diane,100.0,LDDS,750.0,325442.6,True,0.024,0.0,0,12000.0
+Diane,43.6,LEP,327.0,142182.43,True,0.035,0.0,0,7700.0
+Diane,25.0,LEP,187.5,81526.62,False,0.035,0.0,0,7700.0
+Diane,50.0,LEP,375.0,163053.25,True,0.035,0.0,0,7700.0
+Diane,75.0,LEP,562.5,244579.87,True,0.035,0.0,0,7700.0
+Diane,43.6,PEL (2025),327.0,141720.9,True,0.0175,0.3,4,61200.0
+Diane,25.0,PEL (2025),187.5,81261.99,False,0.0175,0.3,4,61200.0
+Diane,50.0,PEL (2025),375.0,162523.97,True,0.0175,0.3,4,61200.0
+Diane,75.0,PEL (2025),562.5,243785.96,True,0.0175,0.3,4,61200.0
+Diane,100.0,PEL (2025),750.0,325047.94,True,0.0175,0.3,4,61200.0
+Diane,43.6,Assurance Vie – euros,327.0,141918.13,True,0.025,0.172,8,150000.0
+Diane,25.0,Assurance Vie – euros,187.5,81375.07,False,0.025,0.172,8,150000.0
+Diane,50.0,Assurance Vie – euros,375.0,162750.15,True,0.025,0.172,8,150000.0
+Diane,75.0,Assurance Vie – euros,562.5,244125.22,True,0.025,0.172,8,150000.0
+Diane,100.0,Assurance Vie – euros,750.0,325500.29,True,0.025,0.172,8,150000.0
+Diane,43.6,Assurance Vie – UC Risque faible,327.0,142180.85,True,0.035,0.172,8,200000.0
+Diane,25.0,Assurance Vie – UC Risque faible,187.5,81525.72,False,0.035,0.172,8,200000.0
+Diane,50.0,Assurance Vie – UC Risque faible,375.0,163051.43,True,0.035,0.172,8,200000.0
+Diane,75.0,Assurance Vie – UC Risque faible,562.5,244577.15,True,0.035,0.172,8,200000.0
+Diane,100.0,Assurance Vie – UC Risque faible,750.0,326102.87,True,0.035,0.172,8,200000.0
+Diane,43.6,Assurance Vie – UC Risque modéré,327.0,142444.19,True,0.045,0.172,8,200000.0
+Diane,25.0,Assurance Vie – UC Risque modéré,187.5,81676.71,False,0.045,0.172,8,200000.0
+Diane,50.0,Assurance Vie – UC Risque modéré,375.0,163353.43,True,0.045,0.172,8,200000.0
+Diane,75.0,Assurance Vie – UC Risque modéré,562.5,245030.14,True,0.045,0.172,8,200000.0
+Diane,100.0,Assurance Vie – UC Risque modéré,750.0,326706.85,True,0.045,0.172,8,200000.0
+Diane,43.6,PEA – profil prudent,327.0,142444.19,True,0.045,0.172,5,150000.0
+Diane,25.0,PEA – profil prudent,187.5,81676.71,False,0.045,0.172,5,150000.0
+Diane,50.0,PEA – profil prudent,375.0,163353.43,True,0.045,0.172,5,150000.0
+Diane,75.0,PEA – profil prudent,562.5,245030.14,True,0.045,0.172,5,150000.0
+Diane,100.0,PEA – profil prudent,750.0,326706.85,True,0.045,0.172,5,150000.0
+Diane,43.6,PEA – profil équilibré,327.0,142840.35,True,0.06,0.172,5,150000.0
+Diane,25.0,PEA – profil équilibré,187.5,81903.87,False,0.06,0.172,5,150000.0
+Diane,50.0,PEA – profil équilibré,375.0,163807.74,True,0.06,0.172,5,150000.0
+Diane,75.0,PEA – profil équilibré,562.5,245711.61,True,0.06,0.172,5,150000.0
+Diane,100.0,PEA – profil équilibré,750.0,327615.47,True,0.06,0.172,5,150000.0
+Diane,43.6,PEA – profil dynamique,327.0,143370.72,True,0.08,0.172,5,150000.0
+Diane,25.0,PEA – profil dynamique,187.5,82207.98,False,0.08,0.172,5,150000.0
+Diane,50.0,PEA – profil dynamique,375.0,164415.97,True,0.08,0.172,5,150000.0
+Diane,75.0,PEA – profil dynamique,562.5,246623.95,True,0.08,0.172,5,150000.0
+Diane,100.0,PEA – profil dynamique,750.0,328831.94,True,0.08,0.172,5,150000.0
+Diane,43.6,SCPI Iroko Zen,327.0,143129.35,True,0.071,0.3,5,
+Diane,25.0,SCPI Iroko Zen,187.5,82069.58,False,0.071,0.3,5,
+Diane,50.0,SCPI Iroko Zen,375.0,164139.17,True,0.071,0.3,5,
+Diane,75.0,SCPI Iroko Zen,562.5,246208.75,True,0.071,0.3,5,
+Diane,100.0,SCPI Iroko Zen,750.0,328278.33,True,0.071,0.3,5,
+Diane,43.6,SCPI Sofidynamic,327.0,143766.92,True,0.095,0.3,5,
+Diane,25.0,SCPI Sofidynamic,187.5,82435.16,False,0.095,0.3,5,
+Diane,50.0,SCPI Sofidynamic,375.0,164870.33,True,0.095,0.3,5,
+Diane,75.0,SCPI Sofidynamic,562.5,247305.49,True,0.095,0.3,5,
+Diane,100.0,SCPI Sofidynamic,750.0,329740.65,True,0.095,0.3,5,
