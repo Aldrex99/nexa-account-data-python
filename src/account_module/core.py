@@ -132,6 +132,7 @@ def suggestion_epargne(personne: Personne,
                 scenarios= round(vm / capacite_mensuelle * 100, 2) if capacite_mensuelle > 0 else 0,
                 nom_produit=e.nom,
                 effort_mensuel=vm if vm > 0 else 0,
+                total_versement=total_versement,
                 montant_net_final=montant_net if montant_net > 0 else 0,
                 atteint_objectif=(montant_net >= personne.objectif),
                 indicateurs={

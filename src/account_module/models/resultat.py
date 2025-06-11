@@ -19,6 +19,7 @@ class ResultatEpargne:
     scenarios: str
     nom_produit: str
     effort_mensuel: float
+    total_versement: float
     montant_net_final: float
     atteint_objectif: bool
     indicateurs: Dict[str, Any] = field(default_factory=dict)
@@ -50,6 +51,7 @@ class ResultatEpargne:
             'scenarios': self.scenarios,
             'nom_produit': self.nom_produit,
             'effort_mensuel': round(self.effort_mensuel, 2),
+            'total_versement': round(self.total_versement, 2),
             'montant_net_final': round(self.montant_net_final, 2),
             'atteint_objectif': self.atteint_objectif,
         }

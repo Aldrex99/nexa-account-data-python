@@ -10,7 +10,7 @@ def main():
     # Création d'un objet Epargne
     epargne = Epargne(
         nom="Livret A",
-        taux_interet=2.4,
+        taux_interet=0.024,
         fiscalite=0.0,
         duree_min=12,
         versement_max=15000.0,
