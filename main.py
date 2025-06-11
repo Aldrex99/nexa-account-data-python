@@ -4,7 +4,7 @@ from src.account_module.core import import_personnes, import_epargnes, save_pers
 from src.account_module.models.epargne import Epargne
 from src.account_module.models.personne import Personne
 from src.account_module.utils import calcul_interets_composes
-from src.account_module.core import suggestion_epargne
+from src.account_module.core import suggestion_epargne_with_decorator
 
 def main():
     # Création d'un objet Epargne
@@ -57,7 +57,7 @@ def main():
     except Exception as e:
         print(f"An error occurred: {e}")
 
-    # Test suggestion d'épargne
+    # Suggestion d'épargne
     try:
         cleaned_personnes = import_personnes('cleaned_personnes.csv')
         if not cleaned_personnes:
@@ -69,8 +69,7 @@ def main():
 
         suggestions = []
         for personne in cleaned_personnes:
-            print(f"\nSuggestions d'épargne pour {personne.nom}:")
-            suggestions.extend(suggestion_epargne(personne, cleaned_epargnes))
+            suggestions.extend(suggestion_epargne_with_decorator(personne, cleaned_epargnes))
             if not suggestions:
                 print("Aucune suggestion d'épargne disponible.")
             else:

@@ -146,3 +146,15 @@ def suggestion_epargne(personne: Personne,
     logging.info(f"Generated {len(resultats)} savings scenarios successfully.")
     return resultats
 
+def suggestion_epargne_decorator(func):
+    def wrapper(*args, **kwargs):
+        logging.info(f"Début de la suggestion d'épargne for client: {args[0].nom if args else 'Inconnu'}")
+        return func(*args, **kwargs)
+    return wrapper
+
+@suggestion_epargne_decorator
+def suggestion_epargne_with_decorator(personne: Personne, epargnes: List[Epargne]) -> List[ResultatEpargne]:
+    """
+    Wrapper function to log the start of the savings suggestion process.
+    """
+    return suggestion_epargne(personne, epargnes)
